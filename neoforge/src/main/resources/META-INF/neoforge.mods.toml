@@ -1,0 +1,33 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[5,)"
+license = "MIT"
+
+[[mods]]
+modId = "unique_legends"
+version = "${version}"
+displayName = "Unique Legends"
+authors = "RapidMesck"
+description = '''
+Addon para Cobblemon usando Kotlin, Fabric, NeoForge e Architectury.
+'''
+
+[[dependencies.unique_legends]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unique_legends]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unique_legends]]
+modId = "cobblemon"
+type = "required"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
