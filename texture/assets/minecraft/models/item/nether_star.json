@@ -1,0 +1,6164 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_star"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "minecraft:item/unique_legends/pokemon/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "minecraft:item/unique_legends/pokemon/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "minecraft:item/unique_legends/pokemon/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "minecraft:item/unique_legends/pokemon/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "minecraft:item/unique_legends/pokemon/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "minecraft:item/unique_legends/pokemon/7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "minecraft:item/unique_legends/pokemon/8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "minecraft:item/unique_legends/pokemon/9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "minecraft:item/unique_legends/pokemon/10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "minecraft:item/unique_legends/pokemon/11"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "minecraft:item/unique_legends/pokemon/12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "minecraft:item/unique_legends/pokemon/13"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "minecraft:item/unique_legends/pokemon/14"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "minecraft:item/unique_legends/pokemon/15"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "minecraft:item/unique_legends/pokemon/16"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "minecraft:item/unique_legends/pokemon/17"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "minecraft:item/unique_legends/pokemon/18"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "minecraft:item/unique_legends/pokemon/19"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "minecraft:item/unique_legends/pokemon/20"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "minecraft:item/unique_legends/pokemon/21"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "minecraft:item/unique_legends/pokemon/22"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "minecraft:item/unique_legends/pokemon/23"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "minecraft:item/unique_legends/pokemon/24"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "minecraft:item/unique_legends/pokemon/25"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "minecraft:item/unique_legends/pokemon/26"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "minecraft:item/unique_legends/pokemon/27"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "minecraft:item/unique_legends/pokemon/28"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "minecraft:item/unique_legends/pokemon/29"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "minecraft:item/unique_legends/pokemon/30"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "minecraft:item/unique_legends/pokemon/31"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "minecraft:item/unique_legends/pokemon/32"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "minecraft:item/unique_legends/pokemon/33"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "minecraft:item/unique_legends/pokemon/34"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "minecraft:item/unique_legends/pokemon/35"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "minecraft:item/unique_legends/pokemon/36"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "minecraft:item/unique_legends/pokemon/37"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "minecraft:item/unique_legends/pokemon/38"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "minecraft:item/unique_legends/pokemon/39"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "minecraft:item/unique_legends/pokemon/40"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "minecraft:item/unique_legends/pokemon/41"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "minecraft:item/unique_legends/pokemon/42"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "minecraft:item/unique_legends/pokemon/43"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "minecraft:item/unique_legends/pokemon/44"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "minecraft:item/unique_legends/pokemon/45"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "minecraft:item/unique_legends/pokemon/46"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "minecraft:item/unique_legends/pokemon/47"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "minecraft:item/unique_legends/pokemon/48"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "minecraft:item/unique_legends/pokemon/49"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "minecraft:item/unique_legends/pokemon/50"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "minecraft:item/unique_legends/pokemon/51"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "minecraft:item/unique_legends/pokemon/52"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "minecraft:item/unique_legends/pokemon/53"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "minecraft:item/unique_legends/pokemon/54"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "minecraft:item/unique_legends/pokemon/55"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "minecraft:item/unique_legends/pokemon/56"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "minecraft:item/unique_legends/pokemon/57"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "minecraft:item/unique_legends/pokemon/58"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "minecraft:item/unique_legends/pokemon/59"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "minecraft:item/unique_legends/pokemon/60"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "minecraft:item/unique_legends/pokemon/61"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "minecraft:item/unique_legends/pokemon/62"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "minecraft:item/unique_legends/pokemon/63"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "minecraft:item/unique_legends/pokemon/64"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "minecraft:item/unique_legends/pokemon/65"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "minecraft:item/unique_legends/pokemon/66"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "minecraft:item/unique_legends/pokemon/67"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "minecraft:item/unique_legends/pokemon/68"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "minecraft:item/unique_legends/pokemon/69"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "minecraft:item/unique_legends/pokemon/70"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "minecraft:item/unique_legends/pokemon/71"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "minecraft:item/unique_legends/pokemon/72"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "minecraft:item/unique_legends/pokemon/73"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "minecraft:item/unique_legends/pokemon/74"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "model": "minecraft:item/unique_legends/pokemon/75"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 76
+      },
+      "model": "minecraft:item/unique_legends/pokemon/76"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 77
+      },
+      "model": "minecraft:item/unique_legends/pokemon/77"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "model": "minecraft:item/unique_legends/pokemon/78"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 79
+      },
+      "model": "minecraft:item/unique_legends/pokemon/79"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80
+      },
+      "model": "minecraft:item/unique_legends/pokemon/80"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81
+      },
+      "model": "minecraft:item/unique_legends/pokemon/81"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "model": "minecraft:item/unique_legends/pokemon/82"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 83
+      },
+      "model": "minecraft:item/unique_legends/pokemon/83"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 84
+      },
+      "model": "minecraft:item/unique_legends/pokemon/84"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "model": "minecraft:item/unique_legends/pokemon/85"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "model": "minecraft:item/unique_legends/pokemon/86"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 87
+      },
+      "model": "minecraft:item/unique_legends/pokemon/87"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 88
+      },
+      "model": "minecraft:item/unique_legends/pokemon/88"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 89
+      },
+      "model": "minecraft:item/unique_legends/pokemon/89"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "minecraft:item/unique_legends/pokemon/90"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91
+      },
+      "model": "minecraft:item/unique_legends/pokemon/91"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "model": "minecraft:item/unique_legends/pokemon/92"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 93
+      },
+      "model": "minecraft:item/unique_legends/pokemon/93"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 94
+      },
+      "model": "minecraft:item/unique_legends/pokemon/94"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 95
+      },
+      "model": "minecraft:item/unique_legends/pokemon/95"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 96
+      },
+      "model": "minecraft:item/unique_legends/pokemon/96"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 97
+      },
+      "model": "minecraft:item/unique_legends/pokemon/97"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 98
+      },
+      "model": "minecraft:item/unique_legends/pokemon/98"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99
+      },
+      "model": "minecraft:item/unique_legends/pokemon/99"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "minecraft:item/unique_legends/pokemon/100"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "minecraft:item/unique_legends/pokemon/101"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:item/unique_legends/pokemon/102"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:item/unique_legends/pokemon/103"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:item/unique_legends/pokemon/104"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:item/unique_legends/pokemon/105"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:item/unique_legends/pokemon/106"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "minecraft:item/unique_legends/pokemon/107"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "minecraft:item/unique_legends/pokemon/108"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "minecraft:item/unique_legends/pokemon/109"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "minecraft:item/unique_legends/pokemon/110"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "minecraft:item/unique_legends/pokemon/111"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "minecraft:item/unique_legends/pokemon/112"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "model": "minecraft:item/unique_legends/pokemon/113"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 114
+      },
+      "model": "minecraft:item/unique_legends/pokemon/114"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 115
+      },
+      "model": "minecraft:item/unique_legends/pokemon/115"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 116
+      },
+      "model": "minecraft:item/unique_legends/pokemon/116"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 117
+      },
+      "model": "minecraft:item/unique_legends/pokemon/117"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 118
+      },
+      "model": "minecraft:item/unique_legends/pokemon/118"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 119
+      },
+      "model": "minecraft:item/unique_legends/pokemon/119"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 120
+      },
+      "model": "minecraft:item/unique_legends/pokemon/120"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 121
+      },
+      "model": "minecraft:item/unique_legends/pokemon/121"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "model": "minecraft:item/unique_legends/pokemon/122"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 123
+      },
+      "model": "minecraft:item/unique_legends/pokemon/123"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 124
+      },
+      "model": "minecraft:item/unique_legends/pokemon/124"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 125
+      },
+      "model": "minecraft:item/unique_legends/pokemon/125"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 126
+      },
+      "model": "minecraft:item/unique_legends/pokemon/126"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 127
+      },
+      "model": "minecraft:item/unique_legends/pokemon/127"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 128
+      },
+      "model": "minecraft:item/unique_legends/pokemon/128"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 129
+      },
+      "model": "minecraft:item/unique_legends/pokemon/129"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 130
+      },
+      "model": "minecraft:item/unique_legends/pokemon/130"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 131
+      },
+      "model": "minecraft:item/unique_legends/pokemon/131"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 132
+      },
+      "model": "minecraft:item/unique_legends/pokemon/132"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133
+      },
+      "model": "minecraft:item/unique_legends/pokemon/133"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 134
+      },
+      "model": "minecraft:item/unique_legends/pokemon/134"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 135
+      },
+      "model": "minecraft:item/unique_legends/pokemon/135"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 136
+      },
+      "model": "minecraft:item/unique_legends/pokemon/136"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 137
+      },
+      "model": "minecraft:item/unique_legends/pokemon/137"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 138
+      },
+      "model": "minecraft:item/unique_legends/pokemon/138"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 139
+      },
+      "model": "minecraft:item/unique_legends/pokemon/139"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 140
+      },
+      "model": "minecraft:item/unique_legends/pokemon/140"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 141
+      },
+      "model": "minecraft:item/unique_legends/pokemon/141"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 142
+      },
+      "model": "minecraft:item/unique_legends/pokemon/142"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 143
+      },
+      "model": "minecraft:item/unique_legends/pokemon/143"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 144
+      },
+      "model": "minecraft:item/unique_legends/pokemon/144"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 145
+      },
+      "model": "minecraft:item/unique_legends/pokemon/145"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 146
+      },
+      "model": "minecraft:item/unique_legends/pokemon/146"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 147
+      },
+      "model": "minecraft:item/unique_legends/pokemon/147"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 148
+      },
+      "model": "minecraft:item/unique_legends/pokemon/148"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 149
+      },
+      "model": "minecraft:item/unique_legends/pokemon/149"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 150
+      },
+      "model": "minecraft:item/unique_legends/pokemon/150"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 151
+      },
+      "model": "minecraft:item/unique_legends/pokemon/151"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 152
+      },
+      "model": "minecraft:item/unique_legends/pokemon/152"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 153
+      },
+      "model": "minecraft:item/unique_legends/pokemon/153"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 154
+      },
+      "model": "minecraft:item/unique_legends/pokemon/154"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 155
+      },
+      "model": "minecraft:item/unique_legends/pokemon/155"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 156
+      },
+      "model": "minecraft:item/unique_legends/pokemon/156"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 157
+      },
+      "model": "minecraft:item/unique_legends/pokemon/157"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 158
+      },
+      "model": "minecraft:item/unique_legends/pokemon/158"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 159
+      },
+      "model": "minecraft:item/unique_legends/pokemon/159"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 160
+      },
+      "model": "minecraft:item/unique_legends/pokemon/160"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 161
+      },
+      "model": "minecraft:item/unique_legends/pokemon/161"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 162
+      },
+      "model": "minecraft:item/unique_legends/pokemon/162"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 163
+      },
+      "model": "minecraft:item/unique_legends/pokemon/163"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 164
+      },
+      "model": "minecraft:item/unique_legends/pokemon/164"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 165
+      },
+      "model": "minecraft:item/unique_legends/pokemon/165"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 166
+      },
+      "model": "minecraft:item/unique_legends/pokemon/166"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 167
+      },
+      "model": "minecraft:item/unique_legends/pokemon/167"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 168
+      },
+      "model": "minecraft:item/unique_legends/pokemon/168"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 169
+      },
+      "model": "minecraft:item/unique_legends/pokemon/169"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 170
+      },
+      "model": "minecraft:item/unique_legends/pokemon/170"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 171
+      },
+      "model": "minecraft:item/unique_legends/pokemon/171"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 172
+      },
+      "model": "minecraft:item/unique_legends/pokemon/172"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 173
+      },
+      "model": "minecraft:item/unique_legends/pokemon/173"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 174
+      },
+      "model": "minecraft:item/unique_legends/pokemon/174"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 175
+      },
+      "model": "minecraft:item/unique_legends/pokemon/175"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 176
+      },
+      "model": "minecraft:item/unique_legends/pokemon/176"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 177
+      },
+      "model": "minecraft:item/unique_legends/pokemon/177"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 178
+      },
+      "model": "minecraft:item/unique_legends/pokemon/178"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 179
+      },
+      "model": "minecraft:item/unique_legends/pokemon/179"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 180
+      },
+      "model": "minecraft:item/unique_legends/pokemon/180"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 181
+      },
+      "model": "minecraft:item/unique_legends/pokemon/181"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 182
+      },
+      "model": "minecraft:item/unique_legends/pokemon/182"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 183
+      },
+      "model": "minecraft:item/unique_legends/pokemon/183"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 184
+      },
+      "model": "minecraft:item/unique_legends/pokemon/184"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 185
+      },
+      "model": "minecraft:item/unique_legends/pokemon/185"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 186
+      },
+      "model": "minecraft:item/unique_legends/pokemon/186"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 187
+      },
+      "model": "minecraft:item/unique_legends/pokemon/187"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 188
+      },
+      "model": "minecraft:item/unique_legends/pokemon/188"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 189
+      },
+      "model": "minecraft:item/unique_legends/pokemon/189"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 190
+      },
+      "model": "minecraft:item/unique_legends/pokemon/190"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 191
+      },
+      "model": "minecraft:item/unique_legends/pokemon/191"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 192
+      },
+      "model": "minecraft:item/unique_legends/pokemon/192"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 193
+      },
+      "model": "minecraft:item/unique_legends/pokemon/193"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 194
+      },
+      "model": "minecraft:item/unique_legends/pokemon/194"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 195
+      },
+      "model": "minecraft:item/unique_legends/pokemon/195"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 196
+      },
+      "model": "minecraft:item/unique_legends/pokemon/196"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 197
+      },
+      "model": "minecraft:item/unique_legends/pokemon/197"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 198
+      },
+      "model": "minecraft:item/unique_legends/pokemon/198"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 199
+      },
+      "model": "minecraft:item/unique_legends/pokemon/199"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200
+      },
+      "model": "minecraft:item/unique_legends/pokemon/200"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 201
+      },
+      "model": "minecraft:item/unique_legends/pokemon/201"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 202
+      },
+      "model": "minecraft:item/unique_legends/pokemon/202"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 203
+      },
+      "model": "minecraft:item/unique_legends/pokemon/203"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 204
+      },
+      "model": "minecraft:item/unique_legends/pokemon/204"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 205
+      },
+      "model": "minecraft:item/unique_legends/pokemon/205"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 206
+      },
+      "model": "minecraft:item/unique_legends/pokemon/206"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 207
+      },
+      "model": "minecraft:item/unique_legends/pokemon/207"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 208
+      },
+      "model": "minecraft:item/unique_legends/pokemon/208"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 209
+      },
+      "model": "minecraft:item/unique_legends/pokemon/209"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 210
+      },
+      "model": "minecraft:item/unique_legends/pokemon/210"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 211
+      },
+      "model": "minecraft:item/unique_legends/pokemon/211"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 212
+      },
+      "model": "minecraft:item/unique_legends/pokemon/212"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 213
+      },
+      "model": "minecraft:item/unique_legends/pokemon/213"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 214
+      },
+      "model": "minecraft:item/unique_legends/pokemon/214"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 215
+      },
+      "model": "minecraft:item/unique_legends/pokemon/215"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 216
+      },
+      "model": "minecraft:item/unique_legends/pokemon/216"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 217
+      },
+      "model": "minecraft:item/unique_legends/pokemon/217"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218
+      },
+      "model": "minecraft:item/unique_legends/pokemon/218"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 219
+      },
+      "model": "minecraft:item/unique_legends/pokemon/219"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 220
+      },
+      "model": "minecraft:item/unique_legends/pokemon/220"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 221
+      },
+      "model": "minecraft:item/unique_legends/pokemon/221"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 222
+      },
+      "model": "minecraft:item/unique_legends/pokemon/222"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 223
+      },
+      "model": "minecraft:item/unique_legends/pokemon/223"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 224
+      },
+      "model": "minecraft:item/unique_legends/pokemon/224"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 225
+      },
+      "model": "minecraft:item/unique_legends/pokemon/225"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 226
+      },
+      "model": "minecraft:item/unique_legends/pokemon/226"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 227
+      },
+      "model": "minecraft:item/unique_legends/pokemon/227"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 228
+      },
+      "model": "minecraft:item/unique_legends/pokemon/228"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 229
+      },
+      "model": "minecraft:item/unique_legends/pokemon/229"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 230
+      },
+      "model": "minecraft:item/unique_legends/pokemon/230"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 231
+      },
+      "model": "minecraft:item/unique_legends/pokemon/231"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 232
+      },
+      "model": "minecraft:item/unique_legends/pokemon/232"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 233
+      },
+      "model": "minecraft:item/unique_legends/pokemon/233"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 234
+      },
+      "model": "minecraft:item/unique_legends/pokemon/234"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 235
+      },
+      "model": "minecraft:item/unique_legends/pokemon/235"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 236
+      },
+      "model": "minecraft:item/unique_legends/pokemon/236"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 237
+      },
+      "model": "minecraft:item/unique_legends/pokemon/237"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 238
+      },
+      "model": "minecraft:item/unique_legends/pokemon/238"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 239
+      },
+      "model": "minecraft:item/unique_legends/pokemon/239"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 240
+      },
+      "model": "minecraft:item/unique_legends/pokemon/240"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 241
+      },
+      "model": "minecraft:item/unique_legends/pokemon/241"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 242
+      },
+      "model": "minecraft:item/unique_legends/pokemon/242"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 243
+      },
+      "model": "minecraft:item/unique_legends/pokemon/243"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 244
+      },
+      "model": "minecraft:item/unique_legends/pokemon/244"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 245
+      },
+      "model": "minecraft:item/unique_legends/pokemon/245"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 246
+      },
+      "model": "minecraft:item/unique_legends/pokemon/246"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 247
+      },
+      "model": "minecraft:item/unique_legends/pokemon/247"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 248
+      },
+      "model": "minecraft:item/unique_legends/pokemon/248"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 249
+      },
+      "model": "minecraft:item/unique_legends/pokemon/249"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 250
+      },
+      "model": "minecraft:item/unique_legends/pokemon/250"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 251
+      },
+      "model": "minecraft:item/unique_legends/pokemon/251"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 252
+      },
+      "model": "minecraft:item/unique_legends/pokemon/252"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 253
+      },
+      "model": "minecraft:item/unique_legends/pokemon/253"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 254
+      },
+      "model": "minecraft:item/unique_legends/pokemon/254"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 255
+      },
+      "model": "minecraft:item/unique_legends/pokemon/255"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 256
+      },
+      "model": "minecraft:item/unique_legends/pokemon/256"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 257
+      },
+      "model": "minecraft:item/unique_legends/pokemon/257"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 258
+      },
+      "model": "minecraft:item/unique_legends/pokemon/258"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 259
+      },
+      "model": "minecraft:item/unique_legends/pokemon/259"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 260
+      },
+      "model": "minecraft:item/unique_legends/pokemon/260"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 261
+      },
+      "model": "minecraft:item/unique_legends/pokemon/261"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 262
+      },
+      "model": "minecraft:item/unique_legends/pokemon/262"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 263
+      },
+      "model": "minecraft:item/unique_legends/pokemon/263"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 264
+      },
+      "model": "minecraft:item/unique_legends/pokemon/264"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 265
+      },
+      "model": "minecraft:item/unique_legends/pokemon/265"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 266
+      },
+      "model": "minecraft:item/unique_legends/pokemon/266"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 267
+      },
+      "model": "minecraft:item/unique_legends/pokemon/267"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 268
+      },
+      "model": "minecraft:item/unique_legends/pokemon/268"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 269
+      },
+      "model": "minecraft:item/unique_legends/pokemon/269"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 270
+      },
+      "model": "minecraft:item/unique_legends/pokemon/270"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 271
+      },
+      "model": "minecraft:item/unique_legends/pokemon/271"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 272
+      },
+      "model": "minecraft:item/unique_legends/pokemon/272"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 273
+      },
+      "model": "minecraft:item/unique_legends/pokemon/273"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 274
+      },
+      "model": "minecraft:item/unique_legends/pokemon/274"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 275
+      },
+      "model": "minecraft:item/unique_legends/pokemon/275"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 276
+      },
+      "model": "minecraft:item/unique_legends/pokemon/276"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 277
+      },
+      "model": "minecraft:item/unique_legends/pokemon/277"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 278
+      },
+      "model": "minecraft:item/unique_legends/pokemon/278"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 279
+      },
+      "model": "minecraft:item/unique_legends/pokemon/279"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 280
+      },
+      "model": "minecraft:item/unique_legends/pokemon/280"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 281
+      },
+      "model": "minecraft:item/unique_legends/pokemon/281"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 282
+      },
+      "model": "minecraft:item/unique_legends/pokemon/282"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 283
+      },
+      "model": "minecraft:item/unique_legends/pokemon/283"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 284
+      },
+      "model": "minecraft:item/unique_legends/pokemon/284"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 285
+      },
+      "model": "minecraft:item/unique_legends/pokemon/285"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 286
+      },
+      "model": "minecraft:item/unique_legends/pokemon/286"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 287
+      },
+      "model": "minecraft:item/unique_legends/pokemon/287"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 288
+      },
+      "model": "minecraft:item/unique_legends/pokemon/288"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 289
+      },
+      "model": "minecraft:item/unique_legends/pokemon/289"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 290
+      },
+      "model": "minecraft:item/unique_legends/pokemon/290"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 291
+      },
+      "model": "minecraft:item/unique_legends/pokemon/291"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 292
+      },
+      "model": "minecraft:item/unique_legends/pokemon/292"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 293
+      },
+      "model": "minecraft:item/unique_legends/pokemon/293"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 294
+      },
+      "model": "minecraft:item/unique_legends/pokemon/294"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 295
+      },
+      "model": "minecraft:item/unique_legends/pokemon/295"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 296
+      },
+      "model": "minecraft:item/unique_legends/pokemon/296"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 297
+      },
+      "model": "minecraft:item/unique_legends/pokemon/297"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 298
+      },
+      "model": "minecraft:item/unique_legends/pokemon/298"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 299
+      },
+      "model": "minecraft:item/unique_legends/pokemon/299"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300
+      },
+      "model": "minecraft:item/unique_legends/pokemon/300"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 301
+      },
+      "model": "minecraft:item/unique_legends/pokemon/301"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 302
+      },
+      "model": "minecraft:item/unique_legends/pokemon/302"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 303
+      },
+      "model": "minecraft:item/unique_legends/pokemon/303"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 304
+      },
+      "model": "minecraft:item/unique_legends/pokemon/304"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 305
+      },
+      "model": "minecraft:item/unique_legends/pokemon/305"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 306
+      },
+      "model": "minecraft:item/unique_legends/pokemon/306"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 307
+      },
+      "model": "minecraft:item/unique_legends/pokemon/307"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 308
+      },
+      "model": "minecraft:item/unique_legends/pokemon/308"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 309
+      },
+      "model": "minecraft:item/unique_legends/pokemon/309"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 310
+      },
+      "model": "minecraft:item/unique_legends/pokemon/310"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 311
+      },
+      "model": "minecraft:item/unique_legends/pokemon/311"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 312
+      },
+      "model": "minecraft:item/unique_legends/pokemon/312"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 313
+      },
+      "model": "minecraft:item/unique_legends/pokemon/313"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 314
+      },
+      "model": "minecraft:item/unique_legends/pokemon/314"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 315
+      },
+      "model": "minecraft:item/unique_legends/pokemon/315"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 316
+      },
+      "model": "minecraft:item/unique_legends/pokemon/316"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 317
+      },
+      "model": "minecraft:item/unique_legends/pokemon/317"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 318
+      },
+      "model": "minecraft:item/unique_legends/pokemon/318"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 319
+      },
+      "model": "minecraft:item/unique_legends/pokemon/319"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 320
+      },
+      "model": "minecraft:item/unique_legends/pokemon/320"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 321
+      },
+      "model": "minecraft:item/unique_legends/pokemon/321"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 322
+      },
+      "model": "minecraft:item/unique_legends/pokemon/322"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 323
+      },
+      "model": "minecraft:item/unique_legends/pokemon/323"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 324
+      },
+      "model": "minecraft:item/unique_legends/pokemon/324"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 325
+      },
+      "model": "minecraft:item/unique_legends/pokemon/325"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 326
+      },
+      "model": "minecraft:item/unique_legends/pokemon/326"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 327
+      },
+      "model": "minecraft:item/unique_legends/pokemon/327"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 328
+      },
+      "model": "minecraft:item/unique_legends/pokemon/328"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 329
+      },
+      "model": "minecraft:item/unique_legends/pokemon/329"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330
+      },
+      "model": "minecraft:item/unique_legends/pokemon/330"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331
+      },
+      "model": "minecraft:item/unique_legends/pokemon/331"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332
+      },
+      "model": "minecraft:item/unique_legends/pokemon/332"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 333
+      },
+      "model": "minecraft:item/unique_legends/pokemon/333"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 334
+      },
+      "model": "minecraft:item/unique_legends/pokemon/334"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 335
+      },
+      "model": "minecraft:item/unique_legends/pokemon/335"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 336
+      },
+      "model": "minecraft:item/unique_legends/pokemon/336"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 337
+      },
+      "model": "minecraft:item/unique_legends/pokemon/337"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338
+      },
+      "model": "minecraft:item/unique_legends/pokemon/338"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339
+      },
+      "model": "minecraft:item/unique_legends/pokemon/339"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 340
+      },
+      "model": "minecraft:item/unique_legends/pokemon/340"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 341
+      },
+      "model": "minecraft:item/unique_legends/pokemon/341"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 342
+      },
+      "model": "minecraft:item/unique_legends/pokemon/342"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 343
+      },
+      "model": "minecraft:item/unique_legends/pokemon/343"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 344
+      },
+      "model": "minecraft:item/unique_legends/pokemon/344"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 345
+      },
+      "model": "minecraft:item/unique_legends/pokemon/345"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 346
+      },
+      "model": "minecraft:item/unique_legends/pokemon/346"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 347
+      },
+      "model": "minecraft:item/unique_legends/pokemon/347"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 348
+      },
+      "model": "minecraft:item/unique_legends/pokemon/348"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 349
+      },
+      "model": "minecraft:item/unique_legends/pokemon/349"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 350
+      },
+      "model": "minecraft:item/unique_legends/pokemon/350"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 351
+      },
+      "model": "minecraft:item/unique_legends/pokemon/351"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 352
+      },
+      "model": "minecraft:item/unique_legends/pokemon/352"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 353
+      },
+      "model": "minecraft:item/unique_legends/pokemon/353"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 354
+      },
+      "model": "minecraft:item/unique_legends/pokemon/354"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 355
+      },
+      "model": "minecraft:item/unique_legends/pokemon/355"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 356
+      },
+      "model": "minecraft:item/unique_legends/pokemon/356"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 357
+      },
+      "model": "minecraft:item/unique_legends/pokemon/357"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 358
+      },
+      "model": "minecraft:item/unique_legends/pokemon/358"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 359
+      },
+      "model": "minecraft:item/unique_legends/pokemon/359"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 360
+      },
+      "model": "minecraft:item/unique_legends/pokemon/360"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 361
+      },
+      "model": "minecraft:item/unique_legends/pokemon/361"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 362
+      },
+      "model": "minecraft:item/unique_legends/pokemon/362"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 363
+      },
+      "model": "minecraft:item/unique_legends/pokemon/363"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 364
+      },
+      "model": "minecraft:item/unique_legends/pokemon/364"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 365
+      },
+      "model": "minecraft:item/unique_legends/pokemon/365"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 366
+      },
+      "model": "minecraft:item/unique_legends/pokemon/366"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 367
+      },
+      "model": "minecraft:item/unique_legends/pokemon/367"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 368
+      },
+      "model": "minecraft:item/unique_legends/pokemon/368"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 369
+      },
+      "model": "minecraft:item/unique_legends/pokemon/369"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 370
+      },
+      "model": "minecraft:item/unique_legends/pokemon/370"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 371
+      },
+      "model": "minecraft:item/unique_legends/pokemon/371"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 372
+      },
+      "model": "minecraft:item/unique_legends/pokemon/372"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 373
+      },
+      "model": "minecraft:item/unique_legends/pokemon/373"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 374
+      },
+      "model": "minecraft:item/unique_legends/pokemon/374"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 375
+      },
+      "model": "minecraft:item/unique_legends/pokemon/375"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 376
+      },
+      "model": "minecraft:item/unique_legends/pokemon/376"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 377
+      },
+      "model": "minecraft:item/unique_legends/pokemon/377"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 378
+      },
+      "model": "minecraft:item/unique_legends/pokemon/378"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 379
+      },
+      "model": "minecraft:item/unique_legends/pokemon/379"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 380
+      },
+      "model": "minecraft:item/unique_legends/pokemon/380"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 381
+      },
+      "model": "minecraft:item/unique_legends/pokemon/381"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 382
+      },
+      "model": "minecraft:item/unique_legends/pokemon/382"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 383
+      },
+      "model": "minecraft:item/unique_legends/pokemon/383"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 384
+      },
+      "model": "minecraft:item/unique_legends/pokemon/384"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 385
+      },
+      "model": "minecraft:item/unique_legends/pokemon/385"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 386
+      },
+      "model": "minecraft:item/unique_legends/pokemon/386"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 387
+      },
+      "model": "minecraft:item/unique_legends/pokemon/387"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 388
+      },
+      "model": "minecraft:item/unique_legends/pokemon/388"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 389
+      },
+      "model": "minecraft:item/unique_legends/pokemon/389"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 390
+      },
+      "model": "minecraft:item/unique_legends/pokemon/390"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 391
+      },
+      "model": "minecraft:item/unique_legends/pokemon/391"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 392
+      },
+      "model": "minecraft:item/unique_legends/pokemon/392"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393
+      },
+      "model": "minecraft:item/unique_legends/pokemon/393"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 394
+      },
+      "model": "minecraft:item/unique_legends/pokemon/394"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 395
+      },
+      "model": "minecraft:item/unique_legends/pokemon/395"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 396
+      },
+      "model": "minecraft:item/unique_legends/pokemon/396"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 397
+      },
+      "model": "minecraft:item/unique_legends/pokemon/397"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 398
+      },
+      "model": "minecraft:item/unique_legends/pokemon/398"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 399
+      },
+      "model": "minecraft:item/unique_legends/pokemon/399"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400
+      },
+      "model": "minecraft:item/unique_legends/pokemon/400"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 401
+      },
+      "model": "minecraft:item/unique_legends/pokemon/401"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402
+      },
+      "model": "minecraft:item/unique_legends/pokemon/402"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 403
+      },
+      "model": "minecraft:item/unique_legends/pokemon/403"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404
+      },
+      "model": "minecraft:item/unique_legends/pokemon/404"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405
+      },
+      "model": "minecraft:item/unique_legends/pokemon/405"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 406
+      },
+      "model": "minecraft:item/unique_legends/pokemon/406"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 407
+      },
+      "model": "minecraft:item/unique_legends/pokemon/407"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408
+      },
+      "model": "minecraft:item/unique_legends/pokemon/408"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409
+      },
+      "model": "minecraft:item/unique_legends/pokemon/409"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 410
+      },
+      "model": "minecraft:item/unique_legends/pokemon/410"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 411
+      },
+      "model": "minecraft:item/unique_legends/pokemon/411"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 412
+      },
+      "model": "minecraft:item/unique_legends/pokemon/412"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 413
+      },
+      "model": "minecraft:item/unique_legends/pokemon/413"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 414
+      },
+      "model": "minecraft:item/unique_legends/pokemon/414"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 415
+      },
+      "model": "minecraft:item/unique_legends/pokemon/415"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 416
+      },
+      "model": "minecraft:item/unique_legends/pokemon/416"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 417
+      },
+      "model": "minecraft:item/unique_legends/pokemon/417"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 418
+      },
+      "model": "minecraft:item/unique_legends/pokemon/418"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 419
+      },
+      "model": "minecraft:item/unique_legends/pokemon/419"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 420
+      },
+      "model": "minecraft:item/unique_legends/pokemon/420"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 421
+      },
+      "model": "minecraft:item/unique_legends/pokemon/421"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 422
+      },
+      "model": "minecraft:item/unique_legends/pokemon/422"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423
+      },
+      "model": "minecraft:item/unique_legends/pokemon/423"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 424
+      },
+      "model": "minecraft:item/unique_legends/pokemon/424"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 425
+      },
+      "model": "minecraft:item/unique_legends/pokemon/425"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 426
+      },
+      "model": "minecraft:item/unique_legends/pokemon/426"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 427
+      },
+      "model": "minecraft:item/unique_legends/pokemon/427"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 428
+      },
+      "model": "minecraft:item/unique_legends/pokemon/428"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 429
+      },
+      "model": "minecraft:item/unique_legends/pokemon/429"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 430
+      },
+      "model": "minecraft:item/unique_legends/pokemon/430"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 431
+      },
+      "model": "minecraft:item/unique_legends/pokemon/431"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 432
+      },
+      "model": "minecraft:item/unique_legends/pokemon/432"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 433
+      },
+      "model": "minecraft:item/unique_legends/pokemon/433"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 434
+      },
+      "model": "minecraft:item/unique_legends/pokemon/434"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 435
+      },
+      "model": "minecraft:item/unique_legends/pokemon/435"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 436
+      },
+      "model": "minecraft:item/unique_legends/pokemon/436"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 437
+      },
+      "model": "minecraft:item/unique_legends/pokemon/437"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 438
+      },
+      "model": "minecraft:item/unique_legends/pokemon/438"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 439
+      },
+      "model": "minecraft:item/unique_legends/pokemon/439"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 440
+      },
+      "model": "minecraft:item/unique_legends/pokemon/440"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 441
+      },
+      "model": "minecraft:item/unique_legends/pokemon/441"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 442
+      },
+      "model": "minecraft:item/unique_legends/pokemon/442"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 443
+      },
+      "model": "minecraft:item/unique_legends/pokemon/443"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 444
+      },
+      "model": "minecraft:item/unique_legends/pokemon/444"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 445
+      },
+      "model": "minecraft:item/unique_legends/pokemon/445"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 446
+      },
+      "model": "minecraft:item/unique_legends/pokemon/446"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 447
+      },
+      "model": "minecraft:item/unique_legends/pokemon/447"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 448
+      },
+      "model": "minecraft:item/unique_legends/pokemon/448"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 449
+      },
+      "model": "minecraft:item/unique_legends/pokemon/449"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 450
+      },
+      "model": "minecraft:item/unique_legends/pokemon/450"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 451
+      },
+      "model": "minecraft:item/unique_legends/pokemon/451"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 452
+      },
+      "model": "minecraft:item/unique_legends/pokemon/452"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 453
+      },
+      "model": "minecraft:item/unique_legends/pokemon/453"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 454
+      },
+      "model": "minecraft:item/unique_legends/pokemon/454"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 455
+      },
+      "model": "minecraft:item/unique_legends/pokemon/455"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 456
+      },
+      "model": "minecraft:item/unique_legends/pokemon/456"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 457
+      },
+      "model": "minecraft:item/unique_legends/pokemon/457"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 458
+      },
+      "model": "minecraft:item/unique_legends/pokemon/458"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 459
+      },
+      "model": "minecraft:item/unique_legends/pokemon/459"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 460
+      },
+      "model": "minecraft:item/unique_legends/pokemon/460"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 461
+      },
+      "model": "minecraft:item/unique_legends/pokemon/461"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 462
+      },
+      "model": "minecraft:item/unique_legends/pokemon/462"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 463
+      },
+      "model": "minecraft:item/unique_legends/pokemon/463"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 464
+      },
+      "model": "minecraft:item/unique_legends/pokemon/464"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 465
+      },
+      "model": "minecraft:item/unique_legends/pokemon/465"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 466
+      },
+      "model": "minecraft:item/unique_legends/pokemon/466"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 467
+      },
+      "model": "minecraft:item/unique_legends/pokemon/467"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 468
+      },
+      "model": "minecraft:item/unique_legends/pokemon/468"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 469
+      },
+      "model": "minecraft:item/unique_legends/pokemon/469"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 470
+      },
+      "model": "minecraft:item/unique_legends/pokemon/470"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 471
+      },
+      "model": "minecraft:item/unique_legends/pokemon/471"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 472
+      },
+      "model": "minecraft:item/unique_legends/pokemon/472"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 473
+      },
+      "model": "minecraft:item/unique_legends/pokemon/473"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 474
+      },
+      "model": "minecraft:item/unique_legends/pokemon/474"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 475
+      },
+      "model": "minecraft:item/unique_legends/pokemon/475"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 476
+      },
+      "model": "minecraft:item/unique_legends/pokemon/476"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 477
+      },
+      "model": "minecraft:item/unique_legends/pokemon/477"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 478
+      },
+      "model": "minecraft:item/unique_legends/pokemon/478"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 479
+      },
+      "model": "minecraft:item/unique_legends/pokemon/479"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 480
+      },
+      "model": "minecraft:item/unique_legends/pokemon/480"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 481
+      },
+      "model": "minecraft:item/unique_legends/pokemon/481"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 482
+      },
+      "model": "minecraft:item/unique_legends/pokemon/482"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 483
+      },
+      "model": "minecraft:item/unique_legends/pokemon/483"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 484
+      },
+      "model": "minecraft:item/unique_legends/pokemon/484"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 485
+      },
+      "model": "minecraft:item/unique_legends/pokemon/485"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 486
+      },
+      "model": "minecraft:item/unique_legends/pokemon/486"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 487
+      },
+      "model": "minecraft:item/unique_legends/pokemon/487"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 488
+      },
+      "model": "minecraft:item/unique_legends/pokemon/488"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 489
+      },
+      "model": "minecraft:item/unique_legends/pokemon/489"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 490
+      },
+      "model": "minecraft:item/unique_legends/pokemon/490"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 491
+      },
+      "model": "minecraft:item/unique_legends/pokemon/491"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 492
+      },
+      "model": "minecraft:item/unique_legends/pokemon/492"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 493
+      },
+      "model": "minecraft:item/unique_legends/pokemon/493"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 494
+      },
+      "model": "minecraft:item/unique_legends/pokemon/494"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 495
+      },
+      "model": "minecraft:item/unique_legends/pokemon/495"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 496
+      },
+      "model": "minecraft:item/unique_legends/pokemon/496"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 497
+      },
+      "model": "minecraft:item/unique_legends/pokemon/497"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 498
+      },
+      "model": "minecraft:item/unique_legends/pokemon/498"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 499
+      },
+      "model": "minecraft:item/unique_legends/pokemon/499"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500
+      },
+      "model": "minecraft:item/unique_legends/pokemon/500"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 501
+      },
+      "model": "minecraft:item/unique_legends/pokemon/501"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 502
+      },
+      "model": "minecraft:item/unique_legends/pokemon/502"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 503
+      },
+      "model": "minecraft:item/unique_legends/pokemon/503"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 504
+      },
+      "model": "minecraft:item/unique_legends/pokemon/504"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 505
+      },
+      "model": "minecraft:item/unique_legends/pokemon/505"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 506
+      },
+      "model": "minecraft:item/unique_legends/pokemon/506"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 507
+      },
+      "model": "minecraft:item/unique_legends/pokemon/507"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 508
+      },
+      "model": "minecraft:item/unique_legends/pokemon/508"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 509
+      },
+      "model": "minecraft:item/unique_legends/pokemon/509"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 510
+      },
+      "model": "minecraft:item/unique_legends/pokemon/510"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 511
+      },
+      "model": "minecraft:item/unique_legends/pokemon/511"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 512
+      },
+      "model": "minecraft:item/unique_legends/pokemon/512"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 513
+      },
+      "model": "minecraft:item/unique_legends/pokemon/513"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 514
+      },
+      "model": "minecraft:item/unique_legends/pokemon/514"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 515
+      },
+      "model": "minecraft:item/unique_legends/pokemon/515"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 516
+      },
+      "model": "minecraft:item/unique_legends/pokemon/516"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 517
+      },
+      "model": "minecraft:item/unique_legends/pokemon/517"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 518
+      },
+      "model": "minecraft:item/unique_legends/pokemon/518"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 519
+      },
+      "model": "minecraft:item/unique_legends/pokemon/519"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 520
+      },
+      "model": "minecraft:item/unique_legends/pokemon/520"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 521
+      },
+      "model": "minecraft:item/unique_legends/pokemon/521"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 522
+      },
+      "model": "minecraft:item/unique_legends/pokemon/522"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 523
+      },
+      "model": "minecraft:item/unique_legends/pokemon/523"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 524
+      },
+      "model": "minecraft:item/unique_legends/pokemon/524"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 525
+      },
+      "model": "minecraft:item/unique_legends/pokemon/525"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 526
+      },
+      "model": "minecraft:item/unique_legends/pokemon/526"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 527
+      },
+      "model": "minecraft:item/unique_legends/pokemon/527"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 528
+      },
+      "model": "minecraft:item/unique_legends/pokemon/528"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 529
+      },
+      "model": "minecraft:item/unique_legends/pokemon/529"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 530
+      },
+      "model": "minecraft:item/unique_legends/pokemon/530"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 531
+      },
+      "model": "minecraft:item/unique_legends/pokemon/531"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 532
+      },
+      "model": "minecraft:item/unique_legends/pokemon/532"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 533
+      },
+      "model": "minecraft:item/unique_legends/pokemon/533"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 534
+      },
+      "model": "minecraft:item/unique_legends/pokemon/534"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 535
+      },
+      "model": "minecraft:item/unique_legends/pokemon/535"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 536
+      },
+      "model": "minecraft:item/unique_legends/pokemon/536"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 537
+      },
+      "model": "minecraft:item/unique_legends/pokemon/537"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 538
+      },
+      "model": "minecraft:item/unique_legends/pokemon/538"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 539
+      },
+      "model": "minecraft:item/unique_legends/pokemon/539"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 540
+      },
+      "model": "minecraft:item/unique_legends/pokemon/540"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 541
+      },
+      "model": "minecraft:item/unique_legends/pokemon/541"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 542
+      },
+      "model": "minecraft:item/unique_legends/pokemon/542"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 543
+      },
+      "model": "minecraft:item/unique_legends/pokemon/543"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 544
+      },
+      "model": "minecraft:item/unique_legends/pokemon/544"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 545
+      },
+      "model": "minecraft:item/unique_legends/pokemon/545"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 546
+      },
+      "model": "minecraft:item/unique_legends/pokemon/546"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 547
+      },
+      "model": "minecraft:item/unique_legends/pokemon/547"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 548
+      },
+      "model": "minecraft:item/unique_legends/pokemon/548"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 549
+      },
+      "model": "minecraft:item/unique_legends/pokemon/549"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 550
+      },
+      "model": "minecraft:item/unique_legends/pokemon/550"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 551
+      },
+      "model": "minecraft:item/unique_legends/pokemon/551"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 552
+      },
+      "model": "minecraft:item/unique_legends/pokemon/552"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 553
+      },
+      "model": "minecraft:item/unique_legends/pokemon/553"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 554
+      },
+      "model": "minecraft:item/unique_legends/pokemon/554"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 555
+      },
+      "model": "minecraft:item/unique_legends/pokemon/555"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 556
+      },
+      "model": "minecraft:item/unique_legends/pokemon/556"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 557
+      },
+      "model": "minecraft:item/unique_legends/pokemon/557"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 558
+      },
+      "model": "minecraft:item/unique_legends/pokemon/558"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 559
+      },
+      "model": "minecraft:item/unique_legends/pokemon/559"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 560
+      },
+      "model": "minecraft:item/unique_legends/pokemon/560"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 561
+      },
+      "model": "minecraft:item/unique_legends/pokemon/561"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 562
+      },
+      "model": "minecraft:item/unique_legends/pokemon/562"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 563
+      },
+      "model": "minecraft:item/unique_legends/pokemon/563"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 564
+      },
+      "model": "minecraft:item/unique_legends/pokemon/564"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 565
+      },
+      "model": "minecraft:item/unique_legends/pokemon/565"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 566
+      },
+      "model": "minecraft:item/unique_legends/pokemon/566"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 567
+      },
+      "model": "minecraft:item/unique_legends/pokemon/567"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 568
+      },
+      "model": "minecraft:item/unique_legends/pokemon/568"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 569
+      },
+      "model": "minecraft:item/unique_legends/pokemon/569"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 570
+      },
+      "model": "minecraft:item/unique_legends/pokemon/570"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 571
+      },
+      "model": "minecraft:item/unique_legends/pokemon/571"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 572
+      },
+      "model": "minecraft:item/unique_legends/pokemon/572"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 573
+      },
+      "model": "minecraft:item/unique_legends/pokemon/573"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 574
+      },
+      "model": "minecraft:item/unique_legends/pokemon/574"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 575
+      },
+      "model": "minecraft:item/unique_legends/pokemon/575"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 576
+      },
+      "model": "minecraft:item/unique_legends/pokemon/576"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 577
+      },
+      "model": "minecraft:item/unique_legends/pokemon/577"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 578
+      },
+      "model": "minecraft:item/unique_legends/pokemon/578"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 579
+      },
+      "model": "minecraft:item/unique_legends/pokemon/579"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 580
+      },
+      "model": "minecraft:item/unique_legends/pokemon/580"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 581
+      },
+      "model": "minecraft:item/unique_legends/pokemon/581"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 582
+      },
+      "model": "minecraft:item/unique_legends/pokemon/582"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 583
+      },
+      "model": "minecraft:item/unique_legends/pokemon/583"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 584
+      },
+      "model": "minecraft:item/unique_legends/pokemon/584"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 585
+      },
+      "model": "minecraft:item/unique_legends/pokemon/585"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 586
+      },
+      "model": "minecraft:item/unique_legends/pokemon/586"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 587
+      },
+      "model": "minecraft:item/unique_legends/pokemon/587"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 588
+      },
+      "model": "minecraft:item/unique_legends/pokemon/588"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 589
+      },
+      "model": "minecraft:item/unique_legends/pokemon/589"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 590
+      },
+      "model": "minecraft:item/unique_legends/pokemon/590"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 591
+      },
+      "model": "minecraft:item/unique_legends/pokemon/591"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 592
+      },
+      "model": "minecraft:item/unique_legends/pokemon/592"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 593
+      },
+      "model": "minecraft:item/unique_legends/pokemon/593"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 594
+      },
+      "model": "minecraft:item/unique_legends/pokemon/594"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 595
+      },
+      "model": "minecraft:item/unique_legends/pokemon/595"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 596
+      },
+      "model": "minecraft:item/unique_legends/pokemon/596"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 597
+      },
+      "model": "minecraft:item/unique_legends/pokemon/597"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 598
+      },
+      "model": "minecraft:item/unique_legends/pokemon/598"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 599
+      },
+      "model": "minecraft:item/unique_legends/pokemon/599"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 600
+      },
+      "model": "minecraft:item/unique_legends/pokemon/600"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 601
+      },
+      "model": "minecraft:item/unique_legends/pokemon/601"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 602
+      },
+      "model": "minecraft:item/unique_legends/pokemon/602"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 603
+      },
+      "model": "minecraft:item/unique_legends/pokemon/603"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 604
+      },
+      "model": "minecraft:item/unique_legends/pokemon/604"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 605
+      },
+      "model": "minecraft:item/unique_legends/pokemon/605"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 606
+      },
+      "model": "minecraft:item/unique_legends/pokemon/606"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 607
+      },
+      "model": "minecraft:item/unique_legends/pokemon/607"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 608
+      },
+      "model": "minecraft:item/unique_legends/pokemon/608"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 609
+      },
+      "model": "minecraft:item/unique_legends/pokemon/609"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 610
+      },
+      "model": "minecraft:item/unique_legends/pokemon/610"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 611
+      },
+      "model": "minecraft:item/unique_legends/pokemon/611"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 612
+      },
+      "model": "minecraft:item/unique_legends/pokemon/612"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 613
+      },
+      "model": "minecraft:item/unique_legends/pokemon/613"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 614
+      },
+      "model": "minecraft:item/unique_legends/pokemon/614"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 615
+      },
+      "model": "minecraft:item/unique_legends/pokemon/615"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 616
+      },
+      "model": "minecraft:item/unique_legends/pokemon/616"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 617
+      },
+      "model": "minecraft:item/unique_legends/pokemon/617"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 618
+      },
+      "model": "minecraft:item/unique_legends/pokemon/618"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 619
+      },
+      "model": "minecraft:item/unique_legends/pokemon/619"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 620
+      },
+      "model": "minecraft:item/unique_legends/pokemon/620"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 621
+      },
+      "model": "minecraft:item/unique_legends/pokemon/621"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 622
+      },
+      "model": "minecraft:item/unique_legends/pokemon/622"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 623
+      },
+      "model": "minecraft:item/unique_legends/pokemon/623"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 624
+      },
+      "model": "minecraft:item/unique_legends/pokemon/624"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 625
+      },
+      "model": "minecraft:item/unique_legends/pokemon/625"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 626
+      },
+      "model": "minecraft:item/unique_legends/pokemon/626"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 627
+      },
+      "model": "minecraft:item/unique_legends/pokemon/627"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 628
+      },
+      "model": "minecraft:item/unique_legends/pokemon/628"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 629
+      },
+      "model": "minecraft:item/unique_legends/pokemon/629"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 630
+      },
+      "model": "minecraft:item/unique_legends/pokemon/630"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 631
+      },
+      "model": "minecraft:item/unique_legends/pokemon/631"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 632
+      },
+      "model": "minecraft:item/unique_legends/pokemon/632"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 633
+      },
+      "model": "minecraft:item/unique_legends/pokemon/633"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 634
+      },
+      "model": "minecraft:item/unique_legends/pokemon/634"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 635
+      },
+      "model": "minecraft:item/unique_legends/pokemon/635"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 636
+      },
+      "model": "minecraft:item/unique_legends/pokemon/636"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 637
+      },
+      "model": "minecraft:item/unique_legends/pokemon/637"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 638
+      },
+      "model": "minecraft:item/unique_legends/pokemon/638"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 639
+      },
+      "model": "minecraft:item/unique_legends/pokemon/639"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 640
+      },
+      "model": "minecraft:item/unique_legends/pokemon/640"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 641
+      },
+      "model": "minecraft:item/unique_legends/pokemon/641"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 642
+      },
+      "model": "minecraft:item/unique_legends/pokemon/642"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 643
+      },
+      "model": "minecraft:item/unique_legends/pokemon/643"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 644
+      },
+      "model": "minecraft:item/unique_legends/pokemon/644"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 645
+      },
+      "model": "minecraft:item/unique_legends/pokemon/645"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 646
+      },
+      "model": "minecraft:item/unique_legends/pokemon/646"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 647
+      },
+      "model": "minecraft:item/unique_legends/pokemon/647"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 648
+      },
+      "model": "minecraft:item/unique_legends/pokemon/648"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 649
+      },
+      "model": "minecraft:item/unique_legends/pokemon/649"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 650
+      },
+      "model": "minecraft:item/unique_legends/pokemon/650"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 651
+      },
+      "model": "minecraft:item/unique_legends/pokemon/651"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 652
+      },
+      "model": "minecraft:item/unique_legends/pokemon/652"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 653
+      },
+      "model": "minecraft:item/unique_legends/pokemon/653"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 654
+      },
+      "model": "minecraft:item/unique_legends/pokemon/654"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 655
+      },
+      "model": "minecraft:item/unique_legends/pokemon/655"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 656
+      },
+      "model": "minecraft:item/unique_legends/pokemon/656"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 657
+      },
+      "model": "minecraft:item/unique_legends/pokemon/657"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 658
+      },
+      "model": "minecraft:item/unique_legends/pokemon/658"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 659
+      },
+      "model": "minecraft:item/unique_legends/pokemon/659"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 660
+      },
+      "model": "minecraft:item/unique_legends/pokemon/660"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 661
+      },
+      "model": "minecraft:item/unique_legends/pokemon/661"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 662
+      },
+      "model": "minecraft:item/unique_legends/pokemon/662"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 663
+      },
+      "model": "minecraft:item/unique_legends/pokemon/663"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 664
+      },
+      "model": "minecraft:item/unique_legends/pokemon/664"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 665
+      },
+      "model": "minecraft:item/unique_legends/pokemon/665"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 666
+      },
+      "model": "minecraft:item/unique_legends/pokemon/666"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 667
+      },
+      "model": "minecraft:item/unique_legends/pokemon/667"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 668
+      },
+      "model": "minecraft:item/unique_legends/pokemon/668"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 669
+      },
+      "model": "minecraft:item/unique_legends/pokemon/669"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 670
+      },
+      "model": "minecraft:item/unique_legends/pokemon/670"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 671
+      },
+      "model": "minecraft:item/unique_legends/pokemon/671"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 672
+      },
+      "model": "minecraft:item/unique_legends/pokemon/672"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 673
+      },
+      "model": "minecraft:item/unique_legends/pokemon/673"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 674
+      },
+      "model": "minecraft:item/unique_legends/pokemon/674"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 675
+      },
+      "model": "minecraft:item/unique_legends/pokemon/675"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 676
+      },
+      "model": "minecraft:item/unique_legends/pokemon/676"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 677
+      },
+      "model": "minecraft:item/unique_legends/pokemon/677"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 678
+      },
+      "model": "minecraft:item/unique_legends/pokemon/678"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 679
+      },
+      "model": "minecraft:item/unique_legends/pokemon/679"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 680
+      },
+      "model": "minecraft:item/unique_legends/pokemon/680"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 681
+      },
+      "model": "minecraft:item/unique_legends/pokemon/681"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 682
+      },
+      "model": "minecraft:item/unique_legends/pokemon/682"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 683
+      },
+      "model": "minecraft:item/unique_legends/pokemon/683"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 684
+      },
+      "model": "minecraft:item/unique_legends/pokemon/684"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 685
+      },
+      "model": "minecraft:item/unique_legends/pokemon/685"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 686
+      },
+      "model": "minecraft:item/unique_legends/pokemon/686"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 687
+      },
+      "model": "minecraft:item/unique_legends/pokemon/687"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 688
+      },
+      "model": "minecraft:item/unique_legends/pokemon/688"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 689
+      },
+      "model": "minecraft:item/unique_legends/pokemon/689"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 690
+      },
+      "model": "minecraft:item/unique_legends/pokemon/690"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 691
+      },
+      "model": "minecraft:item/unique_legends/pokemon/691"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 692
+      },
+      "model": "minecraft:item/unique_legends/pokemon/692"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 693
+      },
+      "model": "minecraft:item/unique_legends/pokemon/693"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 694
+      },
+      "model": "minecraft:item/unique_legends/pokemon/694"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 695
+      },
+      "model": "minecraft:item/unique_legends/pokemon/695"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 696
+      },
+      "model": "minecraft:item/unique_legends/pokemon/696"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 697
+      },
+      "model": "minecraft:item/unique_legends/pokemon/697"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 698
+      },
+      "model": "minecraft:item/unique_legends/pokemon/698"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 699
+      },
+      "model": "minecraft:item/unique_legends/pokemon/699"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 700
+      },
+      "model": "minecraft:item/unique_legends/pokemon/700"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 701
+      },
+      "model": "minecraft:item/unique_legends/pokemon/701"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 702
+      },
+      "model": "minecraft:item/unique_legends/pokemon/702"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 703
+      },
+      "model": "minecraft:item/unique_legends/pokemon/703"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 704
+      },
+      "model": "minecraft:item/unique_legends/pokemon/704"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 705
+      },
+      "model": "minecraft:item/unique_legends/pokemon/705"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 706
+      },
+      "model": "minecraft:item/unique_legends/pokemon/706"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 707
+      },
+      "model": "minecraft:item/unique_legends/pokemon/707"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 708
+      },
+      "model": "minecraft:item/unique_legends/pokemon/708"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 709
+      },
+      "model": "minecraft:item/unique_legends/pokemon/709"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 710
+      },
+      "model": "minecraft:item/unique_legends/pokemon/710"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 711
+      },
+      "model": "minecraft:item/unique_legends/pokemon/711"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 712
+      },
+      "model": "minecraft:item/unique_legends/pokemon/712"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 713
+      },
+      "model": "minecraft:item/unique_legends/pokemon/713"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 714
+      },
+      "model": "minecraft:item/unique_legends/pokemon/714"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 715
+      },
+      "model": "minecraft:item/unique_legends/pokemon/715"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 716
+      },
+      "model": "minecraft:item/unique_legends/pokemon/716"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 717
+      },
+      "model": "minecraft:item/unique_legends/pokemon/717"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 718
+      },
+      "model": "minecraft:item/unique_legends/pokemon/718"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 719
+      },
+      "model": "minecraft:item/unique_legends/pokemon/719"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 720
+      },
+      "model": "minecraft:item/unique_legends/pokemon/720"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 721
+      },
+      "model": "minecraft:item/unique_legends/pokemon/721"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 722
+      },
+      "model": "minecraft:item/unique_legends/pokemon/722"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 723
+      },
+      "model": "minecraft:item/unique_legends/pokemon/723"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 724
+      },
+      "model": "minecraft:item/unique_legends/pokemon/724"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 725
+      },
+      "model": "minecraft:item/unique_legends/pokemon/725"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 726
+      },
+      "model": "minecraft:item/unique_legends/pokemon/726"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 727
+      },
+      "model": "minecraft:item/unique_legends/pokemon/727"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 728
+      },
+      "model": "minecraft:item/unique_legends/pokemon/728"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 729
+      },
+      "model": "minecraft:item/unique_legends/pokemon/729"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 730
+      },
+      "model": "minecraft:item/unique_legends/pokemon/730"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 731
+      },
+      "model": "minecraft:item/unique_legends/pokemon/731"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 732
+      },
+      "model": "minecraft:item/unique_legends/pokemon/732"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 733
+      },
+      "model": "minecraft:item/unique_legends/pokemon/733"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 734
+      },
+      "model": "minecraft:item/unique_legends/pokemon/734"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 735
+      },
+      "model": "minecraft:item/unique_legends/pokemon/735"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 736
+      },
+      "model": "minecraft:item/unique_legends/pokemon/736"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 737
+      },
+      "model": "minecraft:item/unique_legends/pokemon/737"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 738
+      },
+      "model": "minecraft:item/unique_legends/pokemon/738"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 739
+      },
+      "model": "minecraft:item/unique_legends/pokemon/739"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 740
+      },
+      "model": "minecraft:item/unique_legends/pokemon/740"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 741
+      },
+      "model": "minecraft:item/unique_legends/pokemon/741"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 742
+      },
+      "model": "minecraft:item/unique_legends/pokemon/742"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 743
+      },
+      "model": "minecraft:item/unique_legends/pokemon/743"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 744
+      },
+      "model": "minecraft:item/unique_legends/pokemon/744"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 745
+      },
+      "model": "minecraft:item/unique_legends/pokemon/745"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 746
+      },
+      "model": "minecraft:item/unique_legends/pokemon/746"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 747
+      },
+      "model": "minecraft:item/unique_legends/pokemon/747"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 748
+      },
+      "model": "minecraft:item/unique_legends/pokemon/748"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 749
+      },
+      "model": "minecraft:item/unique_legends/pokemon/749"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 750
+      },
+      "model": "minecraft:item/unique_legends/pokemon/750"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 751
+      },
+      "model": "minecraft:item/unique_legends/pokemon/751"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 752
+      },
+      "model": "minecraft:item/unique_legends/pokemon/752"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 753
+      },
+      "model": "minecraft:item/unique_legends/pokemon/753"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 754
+      },
+      "model": "minecraft:item/unique_legends/pokemon/754"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 755
+      },
+      "model": "minecraft:item/unique_legends/pokemon/755"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 756
+      },
+      "model": "minecraft:item/unique_legends/pokemon/756"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 757
+      },
+      "model": "minecraft:item/unique_legends/pokemon/757"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 758
+      },
+      "model": "minecraft:item/unique_legends/pokemon/758"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 759
+      },
+      "model": "minecraft:item/unique_legends/pokemon/759"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 760
+      },
+      "model": "minecraft:item/unique_legends/pokemon/760"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 761
+      },
+      "model": "minecraft:item/unique_legends/pokemon/761"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 762
+      },
+      "model": "minecraft:item/unique_legends/pokemon/762"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 763
+      },
+      "model": "minecraft:item/unique_legends/pokemon/763"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 764
+      },
+      "model": "minecraft:item/unique_legends/pokemon/764"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 765
+      },
+      "model": "minecraft:item/unique_legends/pokemon/765"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 766
+      },
+      "model": "minecraft:item/unique_legends/pokemon/766"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 767
+      },
+      "model": "minecraft:item/unique_legends/pokemon/767"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 768
+      },
+      "model": "minecraft:item/unique_legends/pokemon/768"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 769
+      },
+      "model": "minecraft:item/unique_legends/pokemon/769"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 770
+      },
+      "model": "minecraft:item/unique_legends/pokemon/770"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 771
+      },
+      "model": "minecraft:item/unique_legends/pokemon/771"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 772
+      },
+      "model": "minecraft:item/unique_legends/pokemon/772"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 773
+      },
+      "model": "minecraft:item/unique_legends/pokemon/773"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 774
+      },
+      "model": "minecraft:item/unique_legends/pokemon/774"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 775
+      },
+      "model": "minecraft:item/unique_legends/pokemon/775"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 776
+      },
+      "model": "minecraft:item/unique_legends/pokemon/776"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 777
+      },
+      "model": "minecraft:item/unique_legends/pokemon/777"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 778
+      },
+      "model": "minecraft:item/unique_legends/pokemon/778"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 779
+      },
+      "model": "minecraft:item/unique_legends/pokemon/779"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 780
+      },
+      "model": "minecraft:item/unique_legends/pokemon/780"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 781
+      },
+      "model": "minecraft:item/unique_legends/pokemon/781"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 782
+      },
+      "model": "minecraft:item/unique_legends/pokemon/782"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 783
+      },
+      "model": "minecraft:item/unique_legends/pokemon/783"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 784
+      },
+      "model": "minecraft:item/unique_legends/pokemon/784"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 785
+      },
+      "model": "minecraft:item/unique_legends/pokemon/785"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 786
+      },
+      "model": "minecraft:item/unique_legends/pokemon/786"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 787
+      },
+      "model": "minecraft:item/unique_legends/pokemon/787"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 788
+      },
+      "model": "minecraft:item/unique_legends/pokemon/788"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 789
+      },
+      "model": "minecraft:item/unique_legends/pokemon/789"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 790
+      },
+      "model": "minecraft:item/unique_legends/pokemon/790"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 791
+      },
+      "model": "minecraft:item/unique_legends/pokemon/791"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 792
+      },
+      "model": "minecraft:item/unique_legends/pokemon/792"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 793
+      },
+      "model": "minecraft:item/unique_legends/pokemon/793"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 794
+      },
+      "model": "minecraft:item/unique_legends/pokemon/794"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 795
+      },
+      "model": "minecraft:item/unique_legends/pokemon/795"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 796
+      },
+      "model": "minecraft:item/unique_legends/pokemon/796"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 797
+      },
+      "model": "minecraft:item/unique_legends/pokemon/797"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 798
+      },
+      "model": "minecraft:item/unique_legends/pokemon/798"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 799
+      },
+      "model": "minecraft:item/unique_legends/pokemon/799"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 800
+      },
+      "model": "minecraft:item/unique_legends/pokemon/800"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801
+      },
+      "model": "minecraft:item/unique_legends/pokemon/801"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 802
+      },
+      "model": "minecraft:item/unique_legends/pokemon/802"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 803
+      },
+      "model": "minecraft:item/unique_legends/pokemon/803"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 804
+      },
+      "model": "minecraft:item/unique_legends/pokemon/804"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 805
+      },
+      "model": "minecraft:item/unique_legends/pokemon/805"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 806
+      },
+      "model": "minecraft:item/unique_legends/pokemon/806"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 807
+      },
+      "model": "minecraft:item/unique_legends/pokemon/807"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 808
+      },
+      "model": "minecraft:item/unique_legends/pokemon/808"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 809
+      },
+      "model": "minecraft:item/unique_legends/pokemon/809"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 810
+      },
+      "model": "minecraft:item/unique_legends/pokemon/810"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 811
+      },
+      "model": "minecraft:item/unique_legends/pokemon/811"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 812
+      },
+      "model": "minecraft:item/unique_legends/pokemon/812"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 813
+      },
+      "model": "minecraft:item/unique_legends/pokemon/813"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 814
+      },
+      "model": "minecraft:item/unique_legends/pokemon/814"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 815
+      },
+      "model": "minecraft:item/unique_legends/pokemon/815"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 816
+      },
+      "model": "minecraft:item/unique_legends/pokemon/816"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 817
+      },
+      "model": "minecraft:item/unique_legends/pokemon/817"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 818
+      },
+      "model": "minecraft:item/unique_legends/pokemon/818"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 819
+      },
+      "model": "minecraft:item/unique_legends/pokemon/819"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 820
+      },
+      "model": "minecraft:item/unique_legends/pokemon/820"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 821
+      },
+      "model": "minecraft:item/unique_legends/pokemon/821"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 822
+      },
+      "model": "minecraft:item/unique_legends/pokemon/822"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 823
+      },
+      "model": "minecraft:item/unique_legends/pokemon/823"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 824
+      },
+      "model": "minecraft:item/unique_legends/pokemon/824"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 825
+      },
+      "model": "minecraft:item/unique_legends/pokemon/825"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 826
+      },
+      "model": "minecraft:item/unique_legends/pokemon/826"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 827
+      },
+      "model": "minecraft:item/unique_legends/pokemon/827"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 828
+      },
+      "model": "minecraft:item/unique_legends/pokemon/828"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 829
+      },
+      "model": "minecraft:item/unique_legends/pokemon/829"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 830
+      },
+      "model": "minecraft:item/unique_legends/pokemon/830"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 831
+      },
+      "model": "minecraft:item/unique_legends/pokemon/831"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 832
+      },
+      "model": "minecraft:item/unique_legends/pokemon/832"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 833
+      },
+      "model": "minecraft:item/unique_legends/pokemon/833"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 834
+      },
+      "model": "minecraft:item/unique_legends/pokemon/834"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 835
+      },
+      "model": "minecraft:item/unique_legends/pokemon/835"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 836
+      },
+      "model": "minecraft:item/unique_legends/pokemon/836"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 837
+      },
+      "model": "minecraft:item/unique_legends/pokemon/837"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 838
+      },
+      "model": "minecraft:item/unique_legends/pokemon/838"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 839
+      },
+      "model": "minecraft:item/unique_legends/pokemon/839"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840
+      },
+      "model": "minecraft:item/unique_legends/pokemon/840"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 841
+      },
+      "model": "minecraft:item/unique_legends/pokemon/841"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 842
+      },
+      "model": "minecraft:item/unique_legends/pokemon/842"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 843
+      },
+      "model": "minecraft:item/unique_legends/pokemon/843"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 844
+      },
+      "model": "minecraft:item/unique_legends/pokemon/844"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 845
+      },
+      "model": "minecraft:item/unique_legends/pokemon/845"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 846
+      },
+      "model": "minecraft:item/unique_legends/pokemon/846"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 847
+      },
+      "model": "minecraft:item/unique_legends/pokemon/847"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 848
+      },
+      "model": "minecraft:item/unique_legends/pokemon/848"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 849
+      },
+      "model": "minecraft:item/unique_legends/pokemon/849"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 850
+      },
+      "model": "minecraft:item/unique_legends/pokemon/850"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 851
+      },
+      "model": "minecraft:item/unique_legends/pokemon/851"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 852
+      },
+      "model": "minecraft:item/unique_legends/pokemon/852"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 853
+      },
+      "model": "minecraft:item/unique_legends/pokemon/853"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 854
+      },
+      "model": "minecraft:item/unique_legends/pokemon/854"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 855
+      },
+      "model": "minecraft:item/unique_legends/pokemon/855"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 856
+      },
+      "model": "minecraft:item/unique_legends/pokemon/856"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 857
+      },
+      "model": "minecraft:item/unique_legends/pokemon/857"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 858
+      },
+      "model": "minecraft:item/unique_legends/pokemon/858"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 859
+      },
+      "model": "minecraft:item/unique_legends/pokemon/859"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 860
+      },
+      "model": "minecraft:item/unique_legends/pokemon/860"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 861
+      },
+      "model": "minecraft:item/unique_legends/pokemon/861"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 862
+      },
+      "model": "minecraft:item/unique_legends/pokemon/862"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 863
+      },
+      "model": "minecraft:item/unique_legends/pokemon/863"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 864
+      },
+      "model": "minecraft:item/unique_legends/pokemon/864"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 865
+      },
+      "model": "minecraft:item/unique_legends/pokemon/865"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 866
+      },
+      "model": "minecraft:item/unique_legends/pokemon/866"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 867
+      },
+      "model": "minecraft:item/unique_legends/pokemon/867"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 868
+      },
+      "model": "minecraft:item/unique_legends/pokemon/868"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 869
+      },
+      "model": "minecraft:item/unique_legends/pokemon/869"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 870
+      },
+      "model": "minecraft:item/unique_legends/pokemon/870"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 871
+      },
+      "model": "minecraft:item/unique_legends/pokemon/871"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 872
+      },
+      "model": "minecraft:item/unique_legends/pokemon/872"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 873
+      },
+      "model": "minecraft:item/unique_legends/pokemon/873"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 874
+      },
+      "model": "minecraft:item/unique_legends/pokemon/874"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 875
+      },
+      "model": "minecraft:item/unique_legends/pokemon/875"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 876
+      },
+      "model": "minecraft:item/unique_legends/pokemon/876"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 877
+      },
+      "model": "minecraft:item/unique_legends/pokemon/877"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 878
+      },
+      "model": "minecraft:item/unique_legends/pokemon/878"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 879
+      },
+      "model": "minecraft:item/unique_legends/pokemon/879"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 880
+      },
+      "model": "minecraft:item/unique_legends/pokemon/880"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 881
+      },
+      "model": "minecraft:item/unique_legends/pokemon/881"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 882
+      },
+      "model": "minecraft:item/unique_legends/pokemon/882"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 883
+      },
+      "model": "minecraft:item/unique_legends/pokemon/883"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 884
+      },
+      "model": "minecraft:item/unique_legends/pokemon/884"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 885
+      },
+      "model": "minecraft:item/unique_legends/pokemon/885"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 886
+      },
+      "model": "minecraft:item/unique_legends/pokemon/886"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 887
+      },
+      "model": "minecraft:item/unique_legends/pokemon/887"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 888
+      },
+      "model": "minecraft:item/unique_legends/pokemon/888"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 889
+      },
+      "model": "minecraft:item/unique_legends/pokemon/889"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 890
+      },
+      "model": "minecraft:item/unique_legends/pokemon/890"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 891
+      },
+      "model": "minecraft:item/unique_legends/pokemon/891"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 892
+      },
+      "model": "minecraft:item/unique_legends/pokemon/892"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 893
+      },
+      "model": "minecraft:item/unique_legends/pokemon/893"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 894
+      },
+      "model": "minecraft:item/unique_legends/pokemon/894"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 895
+      },
+      "model": "minecraft:item/unique_legends/pokemon/895"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 896
+      },
+      "model": "minecraft:item/unique_legends/pokemon/896"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 897
+      },
+      "model": "minecraft:item/unique_legends/pokemon/897"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 898
+      },
+      "model": "minecraft:item/unique_legends/pokemon/898"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 899
+      },
+      "model": "minecraft:item/unique_legends/pokemon/899"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 900
+      },
+      "model": "minecraft:item/unique_legends/pokemon/900"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 901
+      },
+      "model": "minecraft:item/unique_legends/pokemon/901"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 902
+      },
+      "model": "minecraft:item/unique_legends/pokemon/902"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 903
+      },
+      "model": "minecraft:item/unique_legends/pokemon/903"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 904
+      },
+      "model": "minecraft:item/unique_legends/pokemon/904"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 905
+      },
+      "model": "minecraft:item/unique_legends/pokemon/905"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 906
+      },
+      "model": "minecraft:item/unique_legends/pokemon/906"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 907
+      },
+      "model": "minecraft:item/unique_legends/pokemon/907"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 908
+      },
+      "model": "minecraft:item/unique_legends/pokemon/908"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 909
+      },
+      "model": "minecraft:item/unique_legends/pokemon/909"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 910
+      },
+      "model": "minecraft:item/unique_legends/pokemon/910"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 911
+      },
+      "model": "minecraft:item/unique_legends/pokemon/911"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 912
+      },
+      "model": "minecraft:item/unique_legends/pokemon/912"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 913
+      },
+      "model": "minecraft:item/unique_legends/pokemon/913"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 914
+      },
+      "model": "minecraft:item/unique_legends/pokemon/914"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 915
+      },
+      "model": "minecraft:item/unique_legends/pokemon/915"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 916
+      },
+      "model": "minecraft:item/unique_legends/pokemon/916"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 917
+      },
+      "model": "minecraft:item/unique_legends/pokemon/917"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 918
+      },
+      "model": "minecraft:item/unique_legends/pokemon/918"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 919
+      },
+      "model": "minecraft:item/unique_legends/pokemon/919"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 920
+      },
+      "model": "minecraft:item/unique_legends/pokemon/920"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 921
+      },
+      "model": "minecraft:item/unique_legends/pokemon/921"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 922
+      },
+      "model": "minecraft:item/unique_legends/pokemon/922"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 923
+      },
+      "model": "minecraft:item/unique_legends/pokemon/923"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 924
+      },
+      "model": "minecraft:item/unique_legends/pokemon/924"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 925
+      },
+      "model": "minecraft:item/unique_legends/pokemon/925"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 926
+      },
+      "model": "minecraft:item/unique_legends/pokemon/926"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 927
+      },
+      "model": "minecraft:item/unique_legends/pokemon/927"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 928
+      },
+      "model": "minecraft:item/unique_legends/pokemon/928"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 929
+      },
+      "model": "minecraft:item/unique_legends/pokemon/929"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 930
+      },
+      "model": "minecraft:item/unique_legends/pokemon/930"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 931
+      },
+      "model": "minecraft:item/unique_legends/pokemon/931"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 932
+      },
+      "model": "minecraft:item/unique_legends/pokemon/932"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 933
+      },
+      "model": "minecraft:item/unique_legends/pokemon/933"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 934
+      },
+      "model": "minecraft:item/unique_legends/pokemon/934"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 935
+      },
+      "model": "minecraft:item/unique_legends/pokemon/935"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 936
+      },
+      "model": "minecraft:item/unique_legends/pokemon/936"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 937
+      },
+      "model": "minecraft:item/unique_legends/pokemon/937"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 938
+      },
+      "model": "minecraft:item/unique_legends/pokemon/938"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 939
+      },
+      "model": "minecraft:item/unique_legends/pokemon/939"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 940
+      },
+      "model": "minecraft:item/unique_legends/pokemon/940"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 941
+      },
+      "model": "minecraft:item/unique_legends/pokemon/941"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 942
+      },
+      "model": "minecraft:item/unique_legends/pokemon/942"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 943
+      },
+      "model": "minecraft:item/unique_legends/pokemon/943"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 944
+      },
+      "model": "minecraft:item/unique_legends/pokemon/944"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 945
+      },
+      "model": "minecraft:item/unique_legends/pokemon/945"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 946
+      },
+      "model": "minecraft:item/unique_legends/pokemon/946"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 947
+      },
+      "model": "minecraft:item/unique_legends/pokemon/947"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 948
+      },
+      "model": "minecraft:item/unique_legends/pokemon/948"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 949
+      },
+      "model": "minecraft:item/unique_legends/pokemon/949"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 950
+      },
+      "model": "minecraft:item/unique_legends/pokemon/950"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 951
+      },
+      "model": "minecraft:item/unique_legends/pokemon/951"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 952
+      },
+      "model": "minecraft:item/unique_legends/pokemon/952"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 953
+      },
+      "model": "minecraft:item/unique_legends/pokemon/953"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 954
+      },
+      "model": "minecraft:item/unique_legends/pokemon/954"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 955
+      },
+      "model": "minecraft:item/unique_legends/pokemon/955"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 956
+      },
+      "model": "minecraft:item/unique_legends/pokemon/956"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 957
+      },
+      "model": "minecraft:item/unique_legends/pokemon/957"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 958
+      },
+      "model": "minecraft:item/unique_legends/pokemon/958"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 959
+      },
+      "model": "minecraft:item/unique_legends/pokemon/959"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 960
+      },
+      "model": "minecraft:item/unique_legends/pokemon/960"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 961
+      },
+      "model": "minecraft:item/unique_legends/pokemon/961"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 962
+      },
+      "model": "minecraft:item/unique_legends/pokemon/962"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 963
+      },
+      "model": "minecraft:item/unique_legends/pokemon/963"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 964
+      },
+      "model": "minecraft:item/unique_legends/pokemon/964"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 965
+      },
+      "model": "minecraft:item/unique_legends/pokemon/965"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 966
+      },
+      "model": "minecraft:item/unique_legends/pokemon/966"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 967
+      },
+      "model": "minecraft:item/unique_legends/pokemon/967"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 968
+      },
+      "model": "minecraft:item/unique_legends/pokemon/968"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 969
+      },
+      "model": "minecraft:item/unique_legends/pokemon/969"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 970
+      },
+      "model": "minecraft:item/unique_legends/pokemon/970"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 971
+      },
+      "model": "minecraft:item/unique_legends/pokemon/971"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 972
+      },
+      "model": "minecraft:item/unique_legends/pokemon/972"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 973
+      },
+      "model": "minecraft:item/unique_legends/pokemon/973"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 974
+      },
+      "model": "minecraft:item/unique_legends/pokemon/974"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 975
+      },
+      "model": "minecraft:item/unique_legends/pokemon/975"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 976
+      },
+      "model": "minecraft:item/unique_legends/pokemon/976"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 977
+      },
+      "model": "minecraft:item/unique_legends/pokemon/977"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 978
+      },
+      "model": "minecraft:item/unique_legends/pokemon/978"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 979
+      },
+      "model": "minecraft:item/unique_legends/pokemon/979"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 980
+      },
+      "model": "minecraft:item/unique_legends/pokemon/980"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 981
+      },
+      "model": "minecraft:item/unique_legends/pokemon/981"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 982
+      },
+      "model": "minecraft:item/unique_legends/pokemon/982"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 983
+      },
+      "model": "minecraft:item/unique_legends/pokemon/983"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 984
+      },
+      "model": "minecraft:item/unique_legends/pokemon/984"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 985
+      },
+      "model": "minecraft:item/unique_legends/pokemon/985"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 986
+      },
+      "model": "minecraft:item/unique_legends/pokemon/986"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 987
+      },
+      "model": "minecraft:item/unique_legends/pokemon/987"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 988
+      },
+      "model": "minecraft:item/unique_legends/pokemon/988"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 989
+      },
+      "model": "minecraft:item/unique_legends/pokemon/989"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 990
+      },
+      "model": "minecraft:item/unique_legends/pokemon/990"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 991
+      },
+      "model": "minecraft:item/unique_legends/pokemon/991"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 992
+      },
+      "model": "minecraft:item/unique_legends/pokemon/992"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 993
+      },
+      "model": "minecraft:item/unique_legends/pokemon/993"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 994
+      },
+      "model": "minecraft:item/unique_legends/pokemon/994"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 995
+      },
+      "model": "minecraft:item/unique_legends/pokemon/995"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 996
+      },
+      "model": "minecraft:item/unique_legends/pokemon/996"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 997
+      },
+      "model": "minecraft:item/unique_legends/pokemon/997"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 998
+      },
+      "model": "minecraft:item/unique_legends/pokemon/998"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 999
+      },
+      "model": "minecraft:item/unique_legends/pokemon/999"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1000"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1001"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1002"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1003"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1004"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1005"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1006
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1006"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1007
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1007"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1008
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1008"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1009
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1009"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1010
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1010"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1011
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1011"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1012
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1012"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1013
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1013"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1014
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1014"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1015
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1015"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1016
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1016"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1017
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1017"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1018
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1018"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1019
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1019"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1020
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1020"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1021
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1021"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1022
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1022"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1023
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1023"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1024
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1024"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1025
+      },
+      "model": "minecraft:item/unique_legends/pokemon/1025"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 900009
+      },
+      "model": "minecraft:item/unique_legends/gui/locked_fallback"
+    }
+  ]
+}

@@ -6,42 +6,32 @@ import com.mojang.brigadier.builder.LiteralArgumentBuilder
 import com.nbp.unique_legends.config.UniqueLegendsConfigManager
 import com.nbp.unique_legends.data.UniqueLegendRegistry
 import com.nbp.unique_legends.data.UniqueLegendStorage
+import com.nbp.unique_legends.gui.UniqueLegendsListGui
 import com.nbp.unique_legends.service.InactivityService
 import com.nbp.unique_legends.service.ScanService
 import com.nbp.unique_legends.util.MessageUtil
 import com.nbp.unique_legends.util.SpeciesUtil
 import net.minecraft.commands.CommandSourceStack
 import net.minecraft.commands.Commands
+import net.minecraft.server.level.ServerPlayer
 
 object UniqueLegendsCommand {
     fun register(dispatcher: CommandDispatcher<CommandSourceStack>) {
         val root = Commands.literal("uniquelegends")
-            .requires { source -> source.hasPermission(2) }
-            .then(Commands.literal("reload").executes { context ->
+            .then(Commands.literal("reload").requires { source -> source.hasPermission(2) }.executes { context ->
                 UniqueLegendsConfigManager.load()
                 UniqueLegendStorage.load(context.source.server)
                 context.source.sendSuccess({ MessageUtil.component(UniqueLegendsConfigManager.config.messages.commandReload) }, false)
                 1
             })
             .then(Commands.literal("list").executes { context ->
-                val entries = UniqueLegendRegistry.all()
-                if (entries.isEmpty()) {
-                    context.source.sendSuccess({ MessageUtil.component(UniqueLegendsConfigManager.config.messages.commandListEmpty) }, false)
+                val player = context.source.entity as? ServerPlayer
+                if (player != null) {
+                    UniqueLegendsListGui.open(player)
+                    UniqueLegendRegistry.all().size
                 } else {
-                    entries.forEach { entry ->
-                        context.source.sendSuccess({
-                            MessageUtil.component(
-                                UniqueLegendsConfigManager.config.messages.commandListEntry,
-                                SpeciesUtil.placeholders(entry.speciesId) + mapOf(
-                                    "owner" to entry.ownerName,
-                                    "owner_uuid" to entry.ownerUuid,
-                                    "pokemon_uuid" to entry.pokemonUuid
-                                )
-                            )
-                        }, false)
-                    }
+                    sendTextList(context.source)
                 }
-                entries.size
             })
             .then(Commands.literal("info")
                 .then(Commands.argument("species", SpeciesArgumentType.species()).executes { context ->
@@ -71,6 +61,7 @@ object UniqueLegendsCommand {
                 })
             )
             .then(Commands.literal("unlock")
+                .requires { source -> source.hasPermission(2) }
                 .then(Commands.argument("species", SpeciesArgumentType.species()).executes { context ->
                     val species = getSpeciesId(context, "species")
                     val entry = UniqueLegendRegistry.unlock(species)
@@ -98,7 +89,7 @@ object UniqueLegendsCommand {
                     }
                 })
             )
-            .then(Commands.literal("check-inactive").executes { context ->
+            .then(Commands.literal("check-inactive").requires { source -> source.hasPermission(2) }.executes { context ->
                 val released = InactivityService.checkInactiveOwners(context.source.server)
                 context.source.sendSuccess({
                     MessageUtil.component(
@@ -108,7 +99,7 @@ object UniqueLegendsCommand {
                 }, true)
                 released
             })
-            .then(Commands.literal("scan").executes { context ->
+            .then(Commands.literal("scan").requires { source -> source.hasPermission(2) }.executes { context ->
                 val result = ScanService.scanKnownPlayers(context.source.server, fix = false)
                 sendScanResult(context.source, result)
                 result.scanned
@@ -117,7 +108,7 @@ object UniqueLegendsCommand {
                 sendScanResult(context.source, result)
                 result.scanned
             }))
-            .then(Commands.literal("debug").executes { context ->
+            .then(Commands.literal("debug").requires { source -> source.hasPermission(2) }.executes { context ->
                 val config = UniqueLegendsConfigManager.config
                 context.source.sendSuccess({
                     MessageUtil.component(
@@ -166,6 +157,27 @@ object UniqueLegendsCommand {
                 )
             }, false)
         }
+    }
+
+    private fun sendTextList(source: CommandSourceStack): Int {
+        val entries = UniqueLegendRegistry.all()
+        if (entries.isEmpty()) {
+            source.sendSuccess({ MessageUtil.component(UniqueLegendsConfigManager.config.messages.commandListEmpty) }, false)
+        } else {
+            entries.forEach { entry ->
+                source.sendSuccess({
+                    MessageUtil.component(
+                        UniqueLegendsConfigManager.config.messages.commandListEntry,
+                        SpeciesUtil.placeholders(entry.speciesId) + mapOf(
+                            "owner" to entry.ownerName,
+                            "owner_uuid" to entry.ownerUuid,
+                            "pokemon_uuid" to entry.pokemonUuid
+                        )
+                    )
+                }, false)
+            }
+        }
+        return entries.size
     }
 
     private fun alias(

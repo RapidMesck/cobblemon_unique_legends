@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/template_skull",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 900001
+      },
+      "model": "minecraft:item/unique_legends/gui/search_player"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 900002
+      },
+      "model": "minecraft:item/unique_legends/gui/search_pokemon"
+    }
+  ]
+}
