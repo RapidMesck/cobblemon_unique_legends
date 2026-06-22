@@ -9,7 +9,7 @@ object LegendaryLockService {
         if (!UniqueLegendsConfigManager.shouldTrackPokemon(pokemon)) {
             return false
         }
-        return UniqueLegendRegistry.isLocked(pokemon.species.resourceIdentifier.toString())
+        return UniqueLegendRegistry.isLockedOrReserved(pokemon.species.resourceIdentifier.toString())
     }
 
     fun shouldBlockCapture(speciesId: String): Boolean {
@@ -19,6 +19,6 @@ object LegendaryLockService {
         if (!UniqueLegendsConfigManager.shouldTrackSpecies(speciesId)) {
             return false
         }
-        return UniqueLegendRegistry.isLocked(speciesId)
+        return UniqueLegendRegistry.isLockedOrReserved(speciesId)
     }
 }

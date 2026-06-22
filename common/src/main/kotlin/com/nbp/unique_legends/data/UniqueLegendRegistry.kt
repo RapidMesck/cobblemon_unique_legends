@@ -4,10 +4,13 @@ import java.util.UUID
 
 object UniqueLegendRegistry {
     private val entries = linkedMapOf<String, UniqueLegendEntry>()
+    private val reservations = linkedMapOf<String, UniqueLegendReservation>()
+    private const val RESERVATION_TTL_MS = 30_000L
 
     @Synchronized
     fun replaceAll(newEntries: Collection<UniqueLegendEntry>) {
         entries.clear()
+        reservations.clear()
         newEntries.forEach { entry ->
             entries[normalize(entry.speciesId)] = entry.copy(speciesId = normalize(entry.speciesId))
         }
@@ -15,11 +18,63 @@ object UniqueLegendRegistry {
 
     @Synchronized
     fun isLocked(speciesId: String): Boolean {
+        clearExpiredReservations()
         return entries[normalize(speciesId)]?.active == true
     }
 
     @Synchronized
+    fun isLockedOrReserved(speciesId: String): Boolean {
+        clearExpiredReservations()
+        val normalizedSpecies = normalize(speciesId)
+        return entries[normalizedSpecies]?.active == true || reservations[normalizedSpecies] != null
+    }
+
+    @Synchronized
+    fun getLockOrReservation(speciesId: String): UniqueLegendEntry? {
+        clearExpiredReservations()
+        val normalizedSpecies = normalize(speciesId)
+        entries[normalizedSpecies]?.takeIf { it.active }?.let { return it.copy() }
+        return reservations[normalizedSpecies]?.let { reservation ->
+            UniqueLegendEntry(
+                speciesId = reservation.speciesId,
+                ownerUuid = reservation.ownerUuid,
+                ownerName = reservation.ownerName,
+                pokemonUuid = reservation.pokemonUuid,
+                capturedAt = reservation.reservedAt,
+                lastSeenAt = reservation.reservedAt,
+                active = true
+            )
+        }
+    }
+
+    @Synchronized
+    fun reserveCapture(
+        speciesId: String,
+        ownerUuid: UUID,
+        ownerName: String,
+        pokemonUuid: UUID,
+        now: Long = System.currentTimeMillis()
+    ): Boolean {
+        clearExpiredReservations(now)
+        val normalizedSpecies = normalize(speciesId)
+        if (entries[normalizedSpecies]?.active == true || reservations[normalizedSpecies] != null) {
+            return false
+        }
+
+        reservations[normalizedSpecies] = UniqueLegendReservation(
+            speciesId = normalizedSpecies,
+            ownerUuid = ownerUuid,
+            ownerName = ownerName,
+            pokemonUuid = pokemonUuid,
+            reservedAt = now,
+            expiresAt = now + RESERVATION_TTL_MS
+        )
+        return true
+    }
+
+    @Synchronized
     fun getEntry(speciesId: String): UniqueLegendEntry? {
+        clearExpiredReservations()
         return entries[normalize(speciesId)]?.copy()
     }
 
@@ -31,7 +86,9 @@ object UniqueLegendRegistry {
         pokemonUuid: UUID,
         now: Long = System.currentTimeMillis()
     ): UniqueLegendEntry? {
+        clearExpiredReservations(now)
         val normalizedSpecies = normalize(speciesId)
+        reservations.remove(normalizedSpecies)
         if (entries[normalizedSpecies]?.active == true) {
             return null
         }
@@ -62,7 +119,9 @@ object UniqueLegendRegistry {
 
     @Synchronized
     fun unlock(speciesId: String): UniqueLegendEntry? {
-        val entry = entries[normalize(speciesId)] ?: return null
+        val normalizedSpecies = normalize(speciesId)
+        reservations.remove(normalizedSpecies)
+        val entry = entries[normalizedSpecies] ?: return null
         entry.active = false
         return entry.copy()
     }
@@ -90,7 +149,9 @@ object UniqueLegendRegistry {
 
     @Synchronized
     fun remove(speciesId: String): UniqueLegendEntry? {
-        return entries.remove(normalize(speciesId))?.copy()
+        val normalizedSpecies = normalize(speciesId)
+        reservations.remove(normalizedSpecies)
+        return entries.remove(normalizedSpecies)?.copy()
     }
 
     @Synchronized
@@ -108,10 +169,15 @@ object UniqueLegendRegistry {
 
     @Synchronized
     fun all(includeInactive: Boolean = false): Collection<UniqueLegendEntry> {
+        clearExpiredReservations()
         return entries.values
             .filter { includeInactive || it.active }
             .map { it.copy() }
     }
 
     private fun normalize(speciesId: String): String = speciesId.lowercase()
+
+    private fun clearExpiredReservations(now: Long = System.currentTimeMillis()) {
+        reservations.entries.removeIf { (_, reservation) -> reservation.expiresAt <= now }
+    }
 }

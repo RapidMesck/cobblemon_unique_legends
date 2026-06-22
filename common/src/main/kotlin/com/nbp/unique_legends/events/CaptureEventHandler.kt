@@ -22,7 +22,7 @@ object CaptureEventHandler {
             }
 
             val player = event.pokeBall.owner as? ServerPlayer
-            val entry = UniqueLegendRegistry.getEntry(speciesId)
+            val entry = UniqueLegendRegistry.getLockOrReservation(speciesId)
             player?.let {
                 MessageUtil.send(
                     it,
@@ -48,28 +48,28 @@ object CaptureEventHandler {
 
         CobblemonEvents.POKE_BALL_CAPTURE_CALCULATED.subscribe { event ->
             val speciesId = SpeciesUtil.getSpeciesId(event.pokemonEntity.pokemon)
-            if (!LegendaryLockService.shouldBlockCapture(event.pokemonEntity.pokemon)) {
+            if (!UniqueLegendsConfigManager.shouldTrackPokemon(event.pokemonEntity.pokemon)) {
                 return@subscribe
             }
 
-            event.captureResult = CaptureContext(
-                numberOfShakes = 0,
-                isSuccessfulCapture = false,
-                isCriticalCapture = false
-            )
-
             event.ifPlayer { player ->
-                val entry = UniqueLegendRegistry.getEntry(speciesId)
-                MessageUtil.send(
-                    player,
-                    UniqueLegendsConfigManager.config.messages.blockCapture,
-                    SpeciesUtil.placeholders(event.pokemonEntity.pokemon) + mapOf(
-                        "owner" to (entry?.ownerName ?: "unknown"),
-                        "owner_uuid" to (entry?.ownerUuid ?: ""),
-                        "pokemon_uuid" to (entry?.pokemonUuid ?: "")
+                if (LegendaryLockService.shouldBlockCapture(event.pokemonEntity.pokemon)) {
+                    blockCalculatedCapture(event, player, speciesId)
+                    return@ifPlayer
+                }
+
+                if (event.captureResult.isSuccessfulCapture) {
+                    val reserved = UniqueLegendRegistry.reserveCapture(
+                        speciesId = speciesId,
+                        ownerUuid = player.uuid,
+                        ownerName = player.gameProfile.name,
+                        pokemonUuid = event.pokemonEntity.pokemon.uuid
                     )
-                )
-                refundPokeBall(player, ItemStack(event.pokeBallEntity.pokeBall.item()))
+
+                    if (!reserved) {
+                        blockCalculatedCapture(event, player, speciesId)
+                    }
+                }
             }
         }
 
@@ -123,5 +123,29 @@ object CaptureEventHandler {
         if (!player.inventory.add(itemStack)) {
             player.drop(itemStack, false)
         }
+    }
+
+    private fun blockCalculatedCapture(
+        event: com.cobblemon.mod.common.api.events.pokeball.PokeBallCaptureCalculatedEvent,
+        player: ServerPlayer,
+        speciesId: String
+    ) {
+        event.captureResult = CaptureContext(
+            numberOfShakes = 0,
+            isSuccessfulCapture = false,
+            isCriticalCapture = false
+        )
+
+        val entry = UniqueLegendRegistry.getLockOrReservation(speciesId)
+        MessageUtil.send(
+            player,
+            UniqueLegendsConfigManager.config.messages.blockCapture,
+            SpeciesUtil.placeholders(event.pokemonEntity.pokemon) + mapOf(
+                "owner" to (entry?.ownerName ?: "unknown"),
+                "owner_uuid" to (entry?.ownerUuid ?: ""),
+                "pokemon_uuid" to (entry?.pokemonUuid ?: "")
+            )
+        )
+        refundPokeBall(player, ItemStack(event.pokeBallEntity.pokeBall.item()))
     }
 }
