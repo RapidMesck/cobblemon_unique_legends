@@ -2,6 +2,7 @@ package com.nbp.unique_legends.gui
 
 import com.mojang.authlib.properties.Property
 import com.mojang.authlib.properties.PropertyMap
+import com.cobblemon.mod.common.item.PokemonItem
 import com.nbp.unique_legends.config.UniqueLegendsConfigManager
 import com.nbp.unique_legends.data.UniqueLegendEntry
 import com.nbp.unique_legends.data.UniqueLegendRegistry
@@ -153,12 +154,17 @@ object UniqueLegendsListGui {
             "last_seen_at" to formatTime(entry.lastSeenAt)
         )
         return button(
-            Items.NETHER_STAR.defaultInstance,
+            pokemonModelItem(entry) ?: Items.NETHER_STAR.defaultInstance,
             UniqueLegendsConfigManager.config.messages.guiLockedPokemonName,
             UniqueLegendsConfigManager.config.messages.guiLockedPokemonLore,
             placeholders,
-            SpeciesUtil.getNationalPokedexNumber(entry.speciesId) ?: MODEL_LOCKED_FALLBACK
+            if (SpeciesUtil.getSpecies(entry.speciesId) == null) MODEL_LOCKED_FALLBACK else null
         )
+    }
+
+    private fun pokemonModelItem(entry: UniqueLegendEntry): ItemStack? {
+        val species = SpeciesUtil.getSpecies(entry.speciesId) ?: return null
+        return PokemonItem.from(species, emptySet(), 1, null)
     }
 
     private fun button(

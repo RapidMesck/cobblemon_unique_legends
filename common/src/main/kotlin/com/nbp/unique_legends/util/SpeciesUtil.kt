@@ -2,6 +2,7 @@ package com.nbp.unique_legends.util
 
 import com.cobblemon.mod.common.pokemon.Pokemon
 import com.cobblemon.mod.common.api.pokemon.PokemonSpecies
+import com.cobblemon.mod.common.pokemon.Species
 import net.minecraft.resources.ResourceLocation
 
 object SpeciesUtil {
@@ -27,9 +28,13 @@ object SpeciesUtil {
     }
 
     fun getNationalPokedexNumber(speciesId: String): Int? {
-        val resourceLocation = ResourceLocation.tryParse(speciesId) ?: return null
-        val species = PokemonSpecies.getByIdentifier(resourceLocation) ?: return null
+        val species = getSpecies(speciesId) ?: return null
         return species.nationalPokedexNumber.takeIf { it > 0 }
+    }
+
+    fun getSpecies(speciesId: String): Species? {
+        val resourceLocation = ResourceLocation.tryParse(speciesId) ?: return null
+        return PokemonSpecies.getByIdentifier(resourceLocation)
     }
 
     fun placeholders(speciesId: String): Map<String, Any?> {
