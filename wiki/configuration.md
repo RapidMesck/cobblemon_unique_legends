@@ -45,6 +45,16 @@ Label allowlist and blocklist. Labels come from Cobblemon species/form data.
 
 If true, shiny Pokemon ignore the unique lock system.
 
+```json
+"evolutionUnlockMode": "TERMINAL"
+```
+
+Controls pre-evolution lock behavior:
+
+- `"TERMINAL"` (default): Unlocks pre-evolutions when the Pokemon reaches a
+  species with no further evolutions (final form).
+- `"ACCUMULATE"`: Keeps all pre-evolution locks permanently.
+
 ## Tracking rules
 
 Rules are evaluated in this order:

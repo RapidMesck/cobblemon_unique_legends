@@ -7,6 +7,7 @@ import com.nbp.unique_legends.config.UniqueLegendsConfigManager
 import com.nbp.unique_legends.data.UniqueLegendRegistry
 import com.nbp.unique_legends.data.UniqueLegendStorage
 import com.nbp.unique_legends.util.SpeciesUtil
+import net.minecraft.nbt.CompoundTag
 import net.minecraft.server.MinecraftServer
 import net.minecraft.world.level.storage.LevelResource
 import java.nio.file.Files
@@ -42,6 +43,9 @@ object ScanService {
             ((party?.asIterable() ?: emptyList()) + (pc?.asIterable() ?: emptyList())).forEach { pokemon: Pokemon ->
                 scanned++
                 seenPokemonUuids.add(pokemon.uuid)
+
+                collectFusedPokemonUuids(pokemon, registryAccess, seenPokemonUuids)
+
                 val speciesId = SpeciesUtil.getSpeciesId(pokemon)
                 if (!UniqueLegendsConfigManager.shouldTrackPokemon(pokemon)) {
                     return@forEach
@@ -61,7 +65,7 @@ object ScanService {
         if (fix) {
             UniqueLegendRegistry.all().forEach { entry ->
                 if (entry.pokemonUuid !in seenPokemonUuids) {
-                    UniqueLegendRegistry.unlock(entry.speciesId)
+                    UniqueLegendRegistry.unlockChainByPokemonUuid(entry.pokemonUuid)
                     staleLocks++
                 }
             }
@@ -81,21 +85,23 @@ object ScanService {
                         registered++
                     }
                 }
-            } else if (existing.pokemonUuid != candidate.pokemonUuid) {
-                duplicates.add(
-                    "${candidate.speciesId}: ${existing.ownerName} (${existing.pokemonUuid}) e ${candidate.ownerName} (${candidate.pokemonUuid})"
-                )
-            } else if (existing.pokemonUuid == candidate.pokemonUuid && existing.ownerUuid != candidate.ownerUuid) {
-                if (fix) {
-                    val updated = UniqueLegendRegistry.updateOwnerByPokemonUuid(
-                        pokemonUuid = candidate.pokemonUuid,
-                        ownerUuid = candidate.ownerUuid,
-                        ownerName = candidate.ownerName
-                    )
-                    if (updated != null) {
-                        ownershipUpdates++
+            } else if (existing.pokemonUuid == candidate.pokemonUuid) {
+                if (existing.ownerUuid != candidate.ownerUuid) {
+                    if (fix) {
+                        val updated = UniqueLegendRegistry.updateOwnerByPokemonUuid(
+                            pokemonUuid = candidate.pokemonUuid,
+                            ownerUuid = candidate.ownerUuid,
+                            ownerName = candidate.ownerName
+                        )
+                        if (updated != null) {
+                            ownershipUpdates++
+                        }
                     }
                 }
+            } else {
+                duplicates.add(
+                    "${candidate.speciesId}: ${existing.ownerName} (${existing.pokemonUuid}) and ${candidate.ownerName} (${candidate.pokemonUuid})"
+                )
             }
         }
 
@@ -121,6 +127,31 @@ object ScanService {
             ownershipUpdates = ownershipUpdates,
             duplicates = duplicates
         )
+    }
+
+    private fun collectFusedPokemonUuids(
+        hostPokemon: Pokemon,
+        registryAccess: net.minecraft.core.RegistryAccess,
+        seenPokemonUuids: MutableSet<UUID>
+    ) {
+        val fusionNbt = hostPokemon.persistentData.getCompound("fusion_pokemon")
+        if (fusionNbt.isEmpty) {
+            return
+        }
+
+        runCatching {
+            val fusedPokemon = Pokemon.loadFromNBT(registryAccess, fusionNbt)
+            seenPokemonUuids.add(fusedPokemon.uuid)
+            UniqueLegends.logger.debug(
+                "Found fused Pokemon {} ({}) inside {} ({}).",
+                SpeciesUtil.getSpeciesId(fusedPokemon),
+                fusedPokemon.uuid,
+                SpeciesUtil.getSpeciesId(hostPokemon),
+                hostPokemon.uuid
+            )
+        }.onFailure {
+            UniqueLegends.logger.warn("Failed to load fused Pokemon from NBT of {}.", hostPokemon.uuid, it)
+        }
     }
 
     private fun collectKnownPlayers(server: MinecraftServer): Set<KnownPlayer> {

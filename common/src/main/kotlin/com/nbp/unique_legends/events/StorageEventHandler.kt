@@ -25,8 +25,10 @@ object StorageEventHandler {
                 return@subscribe
             }
 
-            UniqueLegendRegistry.unlock(speciesId)
+            val unlockedEntries = UniqueLegendRegistry.unlockChainByPokemonUuid(event.pokemon.uuid)
             UniqueLegendStorage.save()
+
+            val unlockedSpeciesNames = unlockedEntries.joinToString(", ") { SpeciesUtil.getSpeciesName(it.speciesId) }
             MessageUtil.send(
                 event.player,
                 UniqueLegendsConfigManager.config.messages.releaseUnlocked,
@@ -38,8 +40,8 @@ object StorageEventHandler {
                 )
             )
             UniqueLegends.logger.info(
-                "Released lock for {} because {} released pokemon {}.",
-                speciesId,
+                "Released lock chain for [{}] because {} released pokemon {}.",
+                unlockedSpeciesNames,
                 event.player.gameProfile.name,
                 event.pokemon.uuid
             )
@@ -47,7 +49,8 @@ object StorageEventHandler {
 
         CobblemonEvents.TRADE_EVENT_POST.subscribe { event ->
             var changed = false
-            val server = event.tradeParticipant1.uuid.getPlayerServer() ?: event.tradeParticipant2.uuid.getPlayerServer()
+            val server =
+                event.tradeParticipant1.uuid.getPlayerServer() ?: event.tradeParticipant2.uuid.getPlayerServer()
 
             changed = updateOwnerAfterTrade(
                 pokemon = event.tradeParticipant1Pokemon,

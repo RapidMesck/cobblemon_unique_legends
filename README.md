@@ -25,6 +25,8 @@ When a tracked Pokemon is captured, that species becomes locked globally. Other 
 - Manual scan and repair command
 - Release handling
 - Trade ownership handling
+- Evolution chain tracking (evolved forms inherit the lock)
+- Configurable pre-evolution unlock mode (`TERMINAL` / `ACCUMULATE`)
 - Inactivity-based release
 - Configurable chat messages and capture titles
 - Cobblemon species autocomplete in commands
@@ -229,6 +231,7 @@ world/data/unique_legends/unique_legends.json
 
 ```text
 events/CaptureEventHandler.kt
+events/EvolutionEventHandler.kt
 events/PlayerActivityHandler.kt
 events/ServerLifecycleHandler.kt
 events/StorageEventHandler.kt
@@ -239,6 +242,7 @@ These handlers subscribe to Cobblemon and platform events:
 - Pokeball hit
 - capture calculation
 - Pokemon captured
+- Pokemon evolved
 - Pokemon released
 - trade completed
 - player login
@@ -332,7 +336,7 @@ Release:
 ```text
 POKEMON_RELEASED_EVENT_POST
   -> if released Pokemon UUID matches active lock
-  -> unlock species
+  -> unlock entire evolution chain (all species sharing the same pokemonUuid)
   -> save storage
 ```
 
@@ -344,6 +348,61 @@ TRADE_EVENT_POST
   -> update owner UUID/name/lastSeenAt
   -> save storage
 ```
+
+## Evolution Chain Behavior
+
+When a tracked Pokemon evolves, the mod automatically registers a lock for the
+evolved species. The chain is linked by the Pokemon's internal UUID, which is
+preserved across evolutions.
+
+### Config: `evolutionUnlockMode`
+
+Controls what happens to pre-evolution locks when a Pokemon evolves:
+
+| Value | Behavior |
+|-------|----------|
+| `"TERMINAL"` (default) | Unlocks all pre-evolutions once the Pokemon reaches a species with no further evolutions (final form). |
+| `"ACCUMULATE"` | Keeps pre-evolution locks permanently. The entire chain stays locked. |
+
+### Examples (TERMINAL mode)
+
+**Poipole -> Naganadel (linear chain):**
+
+```text
+1. Player captures Poipole   -> poipole locked
+2. Poipole evolves to Naganadel -> naganadel locked, poipole unlocked
+```
+
+**Cosmog -> Cosmoem -> Solgaleo / Lunala (branching chain):**
+
+```text
+1. Player A captures Cosmog       -> cosmog locked
+2. Cosmog evolves to Cosmoem      -> cosmoem locked, cosmog still locked (not terminal yet)
+3. Cosmoem evolves to Solgaleo    -> solgaleo locked, cosmog unlocked, cosmoem unlocked (terminal reached)
+4. Player B can now capture a new Cosmog and evolve to Lunala
+```
+
+**Release cascading:**
+
+When a Pokemon is released, the entire evolution chain is unlocked (all species
+sharing the same pokemonUuid). Releasing a Naganadel will also unlock any
+remaining pre-evolution locks (Poipole).
+
+**Fusions (Necrozma):**
+
+Fusions like Dusk Mane Necrozma / Dawn Wings Necrozma do not change the
+speciesId (it remains `necrozma`). No special handling is needed — the existing
+lock remains valid.
+
+**Scans:**
+
+During scans, Pokemon with the same `pokemonUuid` but different species IDs are
+recognized as evolution chains (not duplicates). Stale locks are cleared for the
+entire chain.
+
+Fused Pokemon (stored inside another Pokemon's persistent NBT, e.g. Necrozma
+absorbing Solgaleo via CobblemonMegaShowdown) are also recognized during scans.
+Their UUIDs are tracked so the lock is not incorrectly released while fused.
 
 ## Build
 

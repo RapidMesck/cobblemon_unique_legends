@@ -2,6 +2,7 @@ package com.nbp.unique_legends
 
 import com.nbp.unique_legends.config.UniqueLegendsConfigManager
 import com.nbp.unique_legends.events.CaptureEventHandler
+import com.nbp.unique_legends.events.EvolutionEventHandler
 import com.nbp.unique_legends.events.PlayerActivityHandler
 import com.nbp.unique_legends.events.ServerLifecycleHandler
 import com.nbp.unique_legends.events.StorageEventHandler
@@ -24,6 +25,7 @@ object UniqueLegends {
         UniqueLegendsConfigManager.load()
         ServerLifecycleHandler.register()
         CaptureEventHandler.register()
+        EvolutionEventHandler.register()
         StorageEventHandler.register()
         PlayerActivityHandler.register()
 

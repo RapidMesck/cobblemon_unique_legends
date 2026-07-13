@@ -79,6 +79,14 @@ object UniqueLegendRegistry {
     }
 
     @Synchronized
+    fun getEntriesByPokemonUuid(pokemonUuid: UUID): List<UniqueLegendEntry> {
+        clearExpiredReservations()
+        return entries.values
+            .filter { it.active && it.pokemonUuid == pokemonUuid }
+            .map { it.copy() }
+    }
+
+    @Synchronized
     fun registerCapture(
         speciesId: String,
         ownerUuid: UUID,
@@ -106,6 +114,37 @@ object UniqueLegendRegistry {
         return entry.copy()
     }
 
+    /**
+     * Registers a lock for an evolved form. Unlike [registerCapture], this allows the same
+     * [pokemonUuid] to exist under a different [speciesId] (evolution chain).
+     */
+    @Synchronized
+    fun registerEvolution(
+        speciesId: String,
+        ownerUuid: UUID,
+        ownerName: String,
+        pokemonUuid: UUID,
+        capturedAt: Long,
+        now: Long = System.currentTimeMillis()
+    ): UniqueLegendEntry? {
+        val normalizedSpecies = normalize(speciesId)
+        if (entries[normalizedSpecies]?.active == true) {
+            return null
+        }
+
+        val entry = UniqueLegendEntry(
+            speciesId = normalizedSpecies,
+            ownerUuid = ownerUuid,
+            ownerName = ownerName,
+            pokemonUuid = pokemonUuid,
+            capturedAt = capturedAt,
+            lastSeenAt = now,
+            active = true
+        )
+        entries[normalizedSpecies] = entry
+        return entry.copy()
+    }
+
     @Synchronized
     fun putEntry(entry: UniqueLegendEntry): Boolean {
         val normalizedSpecies = normalize(entry.speciesId)
@@ -126,11 +165,25 @@ object UniqueLegendRegistry {
         return entry.copy()
     }
 
+    /**
+     * Unlocks a single entry by speciesId. Use [unlockChainByPokemonUuid] to unlock an entire evolution chain.
+     */
     @Synchronized
     fun unlockByPokemonUuid(pokemonUuid: UUID): UniqueLegendEntry? {
         val entry = entries.values.firstOrNull { it.active && it.pokemonUuid == pokemonUuid } ?: return null
         entry.active = false
         return entry.copy()
+    }
+
+    /**
+     * Unlocks all entries in the evolution chain sharing the same [pokemonUuid].
+     * Returns the list of unlocked entries.
+     */
+    @Synchronized
+    fun unlockChainByPokemonUuid(pokemonUuid: UUID): List<UniqueLegendEntry> {
+        val chainEntries = entries.values.filter { it.active && it.pokemonUuid == pokemonUuid }
+        chainEntries.forEach { it.active = false }
+        return chainEntries.map { it.copy() }
     }
 
     @Synchronized

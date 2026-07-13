@@ -8,6 +8,8 @@ data class UniqueLegendsConfig(
     val trackedLabels: MutableSet<String> = mutableSetOf("legendary", "mythical", "ultra_beast"),
     val untrackedLabels: MutableSet<String> = mutableSetOf(),
     val ignoreLockIfShiny: Boolean = false,
+    val evolutionUnlockMode: String = "TERMINAL",
+    val evolutionUnlockModeComment: String = "TERMINAL = unlock pre-evolutions when reaching final form. ACCUMULATE = keep all pre-evolutions locked forever.",
     val captureLimitPerSpecies: Int = 1,
     val releaseOnInactive: Boolean = true,
     val inactiveDaysToRelease: Int = 30,
@@ -44,9 +46,15 @@ data class UniqueLegendsMessages(
     val commandDebugStatus: String = "&7enabled=&e{enabled}&7, tracked=&e{tracked}&7, untracked=&e{untracked}&7, labels=&e{tracked_labels}&7, locks=&e{locks}&7",
     val guiTitle: String = "&6Unique Legends &8- &7Page {page}/{pages}",
     val guiSearchPlayerButtonName: String = "&eSearch by Player",
-    val guiSearchPlayerButtonLore: MutableList<String> = mutableListOf("&7Click and type a player name in chat.", "&8Type cancel to stop searching."),
+    val guiSearchPlayerButtonLore: MutableList<String> = mutableListOf(
+        "&7Click and type a player name in chat.",
+        "&8Type cancel to stop searching."
+    ),
     val guiSearchPokemonButtonName: String = "&bSearch by Pokemon",
-    val guiSearchPokemonButtonLore: MutableList<String> = mutableListOf("&7Click and type a Pokemon name in chat.", "&8Type cancel to stop searching."),
+    val guiSearchPokemonButtonLore: MutableList<String> = mutableListOf(
+        "&7Click and type a Pokemon name in chat.",
+        "&8Type cancel to stop searching."
+    ),
     val guiClearFilterButtonName: String = "&aShow All Locks",
     val guiClearFilterButtonLore: MutableList<String> = mutableListOf("&7Clear the current search filter."),
     val guiPreviousPageButtonName: String = "&ePrevious Page",
@@ -54,7 +62,10 @@ data class UniqueLegendsMessages(
     val guiNextPageButtonName: String = "&eNext Page",
     val guiNextPageButtonLore: MutableList<String> = mutableListOf("&7Go to page &e{target_page}&7."),
     val guiPageInfoName: String = "&6Page {page}/{pages}",
-    val guiPageInfoLore: MutableList<String> = mutableListOf("&7Showing &e{shown}&7 of &e{total}&7 locked unique Pokemon.", "&7Filter: &f{filter}"),
+    val guiPageInfoLore: MutableList<String> = mutableListOf(
+        "&7Showing &e{shown}&7 of &e{total}&7 locked unique Pokemon.",
+        "&7Filter: &f{filter}"
+    ),
     val guiNoLocksName: String = "&cNo Locks Found",
     val guiNoLocksLore: MutableList<String> = mutableListOf("&7No unique Pokemon match this view."),
     val guiLockedPokemonName: String = "&b{species}",

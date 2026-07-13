@@ -37,14 +37,40 @@ Can:
 
 - register missing locks
 - release stale locks
-- detect duplicates
+- detect duplicates (same species, different Pokemon UUID)
+- recognize evolution chains (same Pokemon UUID, different species)
 - update owner data when a tracked Pokemon moved to another player
 
 ## Release handling
 
 When a player releases a tracked unique Pokemon, the mod listens to Cobblemon's release event.
 
-If the released Pokemon UUID matches the active lock, the species is unlocked and storage is saved.
+If the released Pokemon UUID matches an active lock, the **entire evolution chain**
+is unlocked — all species sharing the same Pokemon UUID. Storage is saved.
+
+## Evolution handling
+
+When a tracked Pokemon evolves, the mod listens to Cobblemon's
+`EVOLUTION_COMPLETE` event. A new lock is registered for the evolved species
+using the same Pokemon UUID (which is preserved across evolutions).
+
+The behavior for pre-evolution locks is controlled by `evolutionUnlockMode`
+in the config:
+
+- **`TERMINAL`** (default): Pre-evolution locks are cleared once the Pokemon
+  reaches a species with no further evolutions (final form).
+- **`ACCUMULATE`**: All pre-evolution locks are kept permanently.
+
+### Scans and evolution chains
+
+During scans, Pokemon with the same UUID but different species IDs are
+recognized as evolution chains, not duplicates. Stale lock detection
+releases the entire chain when the Pokemon UUID is no longer found.
+
+Fused Pokemon (stored in another Pokemon's persistent NBT via mods like
+CobblemonMegaShowdown) are also recognized. The scan loads them from the
+host Pokemon's `fusion_pokemon` NBT compound to prevent false stale lock
+detection during fusion.
 
 ## Trade handling
 
